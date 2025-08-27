@@ -1,6 +1,6 @@
 # Inflow-and-Outflow-Centrality
 
-This repository presents implementations of the **inflow** and **outflow** centrality metrics. Additionally it also offers functions to compute the **weighted degree** and **closeness centralities**.
+This repository presents implementations of the **inflow** and **outflow** centrality metrics. Additionally it offers functions to compute the **weighted degree** and **closeness centralities**.
 
 These are found in the *utilities.py* file. They take as input the interaction network as a pandas dataframe and a dictionary containing the node ids as keys and the node features as values.
 
