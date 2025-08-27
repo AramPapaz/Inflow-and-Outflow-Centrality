@@ -6,6 +6,6 @@ The functions are found in the utilities.py file. They take as input the interac
 
 ## Python and package versions
 python == 3.12.4  
-networkx == 3.6
-pandas == 2.2.2
-numpy == 1.26.4 
+networkx == 3.6  
+pandas == 2.2.2  
+numpy == 1.26.4   
