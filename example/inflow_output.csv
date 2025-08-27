@@ -1,0 +1,1777 @@
+Node,InflowValue,Degree
+"algeria,annaba",0.9404465648381326,5
+"france,paris",3.0934492790519634,216
+"turkey,istanbul",3.8974658336071593,184
+"france,lyon",2.9150573383924656,60
+"france,marseille",2.7050678504937404,58
+"algeria,oran",2.280021066424859,19
+"denmark,aalborg",1.1618612866648468,11
+"denmark,aarhus",0.9587512298515591,6
+"spain,malaga",2.254476792551535,75
+"spain,alicante",2.6023352488431373,67
+"netherlands,amsterdam",2.5907921286415805,179
+"sweden,stockholm",3.11373410380426,105
+"spain,barcelona",2.7770054669348068,116
+"denmark,copenhagen",2.063330165271165,92
+"united kingdom,london",3.367490499478889,248
+"norway,oslo",2.1969615496284742,72
+"norway,stavanger",1.7079294882008784,27
+"china,altay",0.6652349462875764,1
+"china,urumqi",3.4524844977607296,40
+"russia,abakan",0.7824776868364395,2
+"russia,moscow",4.648782003602769,166
+"russia,irkutsk",3.2638892261309564,21
+"united states,allentown",0.9602564838409114,9
+"united states,atlanta",3.68885083379186,184
+"united states,charlotte",3.042533408929,114
+"united states,detroit",2.8639418195797077,116
+"united states,myrtle beach",1.9954523543975677,21
+"united states,chicago",3.5391387553652254,185
+"united states,punta gorda",2.8511617706101995,16
+"united states,philadelphia",2.5808544038188006,105
+"united states,st. petersburg",3.2309049774041707,29
+"united states,sanford",3.874877623003814,47
+"united states,albuquerque",1.6335752969756765,20
+"united states,baltimore",1.899365515086336,64
+"united states,carlsbad",0.8398501895419968,2
+"united states,dallas",2.38808288988166,23
+"united states,denver",4.034203561319456,156
+"united states,houston",3.763039522567145,158
+"united states,new york",2.4548565482046074,158
+"united states,los alamos",0.8735348655605881,1
+"united states,las vegas",3.269924269258791,126
+"united states,los angeles",3.2664592296889285,131
+"united states,kansas city",1.6454659292136544,39
+"united states,minneapolis",3.3392883225935757,121
+"united states,oakland",1.9844289915701911,32
+"united states,portland",2.477255187614884,55
+"united states,phoenix",2.699082791620719,82
+"united states,san diego",1.932206523307397,52
+"united states,seattle",2.9678116707196165,87
+"united states,san francisco",2.7218211641271255,94
+"united states,salt lake city",3.3745149555824265,84
+"united states,aberdeen",0.3905613006787229,1
+"nigeria,abuja",4.275595869819076,19
+"ghana,accra",2.872460359925561,27
+"ethiopia,addis ababa",3.061675279099909,59
+"egypt,cairo",2.4801123748478817,63
+"nigeria,calabar",1.1078368403988543,2
+"benin,cotonou",2.551729085157176,19
+"nigeria,enugu",1.1371561787039797,3
+"germany,frankfurt",2.495743863704593,181
+"nigeria,ibadan",0.9446347057266367,1
+"nigeria,ilorin",0.9446347057266367,1
+"nigeria,kano",1.5718556299835684,8
+"togo,lome",2.0118984096230896,15
+"nigeria,lagos",3.1726038118994078,38
+"chad,n'djamena",2.257578490835398,11
+"niger,niamey",1.5273198490108453,8
+"nigeria,sokoto",0.9446347057266367,1
+"equatorial guinea,malabo",2.017378477836798,9
+"nigeria,yola",0.9446347057266367,1
+"australia,albury",0.7705226501091715,2
+"australia,melbourne",3.3989940598887554,48
+"australia,sydney",4.122628885115911,66
+"united states,albany",1.5571304495721836,17
+"united kingdom,aberdeen",2.11701137457985,19
+"norway,bergen",2.0549777182892672,36
+"united kingdom,belfast",1.6145648614883508,25
+"united kingdom,birmingham",2.1927354508281223,55
+"united kingdom,bristol",2.0039041370291755,51
+"ireland,dublin",2.331601282248986,104
+"denmark,esbjerg",0.8043683869505124,1
+"united kingdom,kirkwall",1.2750079925507147,4
+"united kingdom,leeds",1.7590895334922312,34
+"united kingdom,manchester",2.245508022484587,104
+"united kingdom,norwich",0.832410025939628,4
+"latvia,riga",1.760478176291575,43
+"united kingdom,wick",0.8395045962436188,2
+"lebanon,beirut",1.870175659332552,34
+"morocco,casablanca",2.6139326905601346,69
+"senegal,dakar",2.377339738624619,22
+"united arab emirates,dubai",2.918746897571556,144
+"italy,rome",2.4683536631294016,144
+"sierra leone,freetown",1.455986610174487,8
+"south africa,johannesburg",4.120641022716562,67
+"ghana,kumasi",0.808918271848747,1
+"portugal,lisbon",2.1166657600462773,79
+"spain,madrid",2.5645381581780375,116
+"liberia,monrovia",1.3231813801620365,6
+"kenya,nairobi",3.816417910373495,60
+"ghana,sunyani",0.808918271848747,1
+"burkina faso,ouagadougou",2.313366778427406,13
+"ghana,tamale",0.808918271848747,1
+"namibia,windhoek",3.170452256736903,13
+"spain,arrecife",1.9477427121879227,38
+"italy,bergamo",2.915222225183198,55
+"spain,bilbao",1.3582286387218725,24
+"united kingdom,blackpool",0.8109681415894917,5
+"italy,bologna",1.8540608187011702,50
+"united kingdom,bournemouth",1.1647627859372711,8
+"germany,bremen",1.7486551102230454,34
+"germany,cologne",2.166803086928959,61
+"belgium,charleroi",2.626496417107218,56
+"united kingdom,edinburgh",2.114942144851722,62
+"netherlands,eindhoven",2.1923289215213666,48
+"united kingdom,glasgow",1.5960768164015924,35
+"germany,hannover",1.3839304595026576,31
+"germany,hamburg",1.7879512834095685,57
+"germany,leipzig",1.2339001301517623,18
+"united kingdom,liverpool",1.9459963024776898,31
+"germany,munich",2.3945734966704273,141
+"ireland,cork",1.3309931190653128,21
+"spain,santander",1.0960932236864394,12
+"ireland,shannon",1.3894696391814054,19
+"germany,stuttgart",2.0454462487956326,58
+"spain,sevilla",1.5852113687707194,29
+"germany,berlin",2.3203525327196775,100
+"spain,zaragoza",1.0416463678401968,6
+"switzerland,zurich",2.082924572484537,104
+"united states,nantucket",1.791929061660306,3
+"united states,boston",2.535234824959229,86
+"united states,new bedford",1.5646554980376641,2
+"united states,white plains",1.7592334749914005,14
+"china,xingyi",0.893178830275685,5
+"china,guangzhou",3.1761674340636037,109
+"china,chongqing",2.9122238425555325,62
+"china,guiyang",2.4576978352173358,40
+"china,beijing",3.5549685858933957,155
+"china,shanghai",3.525059092708234,136
+"united states,atlantic city",0.988816344115295,9
+"united states,fort lauderdale",2.575047115245994,76
+"united states,orlando",2.516591859053749,91
+"united states,fort myers",1.4702741781425357,29
+"united states,tampa",1.9743193410144098,61
+"iran,zabol",0.8855813763506211,1
+"iran,mashhad",4.588743756205088,23
+"turkey,adana",2.103731421214759,9
+"turkey,izmir",2.57731745992025,39
+"turkey,antalya",2.673881935495755,48
+"iraq,erbil",1.4664560903779191,18
+"cyprus,nicosia",2.035636424724237,7
+"turkey,ankara",4.520819875294046,36
+"saudi arabia,jeddah",3.254583224744176,72
+"turkey,trabzon",1.5116633324650344,6
+"turkey,van",1.2207547028360481,3
+"turkey,kayseri",0.6667017585774473,3
+"greece,athens",2.0752813509671686,65
+"belgium,brussels",2.305272991357296,111
+"france,mulhouse",1.727817867898884,47
+"germany,dortmund",2.0503840730079994,21
+"turkey,elazig",0.8827031558642527,3
+"turkey,sanliurfa",0.8827031558642527,3
+"turkey,gaziantep",1.2901667770443392,4
+"finland,helsinki",2.8964901235150804,65
+"turkey,hatay",1.3445166323261983,6
+"turkey,mardin",0.8827031558642527,3
+"france,nantes",1.9015704226707937,42
+"france,strasbourg",1.5290537390582832,22
+"turkey,sivas",0.6694790024582542,2
+"austria,vienna",2.4792709864036646,100
+"ethiopia,asosa",0.5614744855168852,1
+"thailand,bangkok",4.159351783321729,116
+"mali,bamako",1.826811161177128,12
+"india,mumbai",4.601321809375676,68
+"tanzania,dar es salaam",3.263757606540739,20
+"india,delhi",3.86898764827462,76
+"ethiopia,dire dawa",1.832404243100867,3
+"cameroon,douala",2.797321717561633,20
+"qatar,doha",2.357660379851946,96
+"uganda,entebbe",2.3868459725465074,17
+"congo (kinshasa),kinshasa",4.075072422670843,19
+"hong kong,hong kong",2.538907940962321,99
+"zimbabwe,harare",2.529694475505163,13
+"djibouti,djibouti",1.9922355303691008,10
+"ethiopia,jijiga",2.9574666579886024,3
+"south sudan,juba",1.6084099048255052,8
+"rwanda,kigali",1.994180259698561,15
+"sudan,khartoum",2.8849287871100455,19
+"angola,luanda",3.2025256654186642,33
+"gabon,libreville",2.117770788126748,15
+"malawi,lilongwe",1.8523872787791809,7
+"zambia,lusaka",3.098394468207736,15
+"kenya,mombasa",1.5696355684580325,8
+"oman,muscat",2.5486527106406376,41
+"mozambique,maputo",3.287759215250856,14
+"congo (brazzaville),pointe-noire",1.5331939799968013,8
+"saudi arabia,riyadh",2.5307702986100136,47
+"yemen,sanaa",1.823118738198802,17
+"yemen,aden",1.8001360963931996,14
+"saudi arabia,abha",1.6681157079103328,8
+"jordan,amman",1.8197150998852707,42
+"eritrea,asmara",2.430734123956184,9
+"united arab emirates,abu dhabi",2.1626895326964104,69
+"somalia,mogadishu",2.118699098940462,5
+"united arab emirates,sharjah",3.2075472468892983,49
+"turkey,adiyaman",0.6990430179515221,2
+"australia,adelaide",3.125284348638881,21
+"new zealand,auckland",3.696978095121826,39
+"australia,alice springs",1.460149997176064,7
+"australia,broken hill",2.1216436740685625,4
+"australia,brisbane",3.9160408400760915,47
+"australia,canberra",1.2164114693499481,5
+"australia,ceduna",0.8784106366120963,1
+"australia,cairns",2.1359147968875,15
+"indonesia,denpasar",2.953354347786052,32
+"australia,darwin",2.0287827064061017,15
+"australia,kalgoorlie",1.1279480641099842,3
+"malaysia,kuala lumpur",3.383111902256344,84
+"australia,mount gambier",0.9881694602135205,2
+"australia,mildura",1.4445854450110538,4
+"australia,perth",3.044053891602961,32
+"australia,port lincoln",0.8784106366120963,1
+"singapore,singapore",3.0581870340135846,96
+"australia,whyalla",0.8784106366120963,1
+"united states,kodiak",0.8975588277162077,1
+"united states,anchorage",2.635689924680292,16
+"iran,ardabil",0.8855813763506211,1
+"argentina,buenos aires",4.94448662890295,60
+"argentina,san rafael",2.8344811558160132,3
+"paraguay,asuncion",1.9752413897164562,9
+"argentina,bahia blanca",2.3451953276239124,3
+"argentina,san carlos de bariloche",2.4187888659535752,6
+"argentina,cordoba",2.4039295648134114,9
+"argentina,comodoro rivadavia",2.616921030555885,6
+"brazil,curitiba",3.447927852617864,21
+"argentina,esquel",1.9603756342247685,4
+"brazil,florianopolis",2.421534159011806,10
+"argentina,formosa",0.6095837420707699,1
+"argentina,el calafate",1.5912769747649655,2
+"brazil,rio de janeiro",3.0549137234219277,51
+"brazil,sao paulo",3.510280145067304,86
+"argentina,la rioja",0.6095837420707699,1
+"argentina,san luis",1.6600191458243856,2
+"argentina,mar del plata",1.7630827274148564,2
+"argentina,mendoza",3.123183558841297,7
+"uruguay,montevideo",1.5707084793033672,11
+"argentina,neuquen",1.762880026506249,3
+"uruguay,punta del este",1.7170264560206991,2
+"argentina,puerto madryn",0.6095837420707699,1
+"brazil,porto alegre",3.4265670837237043,23
+"argentina,parana",0.6095837420707699,1
+"argentina,posadas",0.6095837420707699,1
+"argentina,trelew",2.885788734419684,6
+"argentina,resistencia",0.6095837420707699,1
+"argentina,rio grande",1.3551794187694053,2
+"argentina,rio gallegos",2.8286399559749325,5
+"argentina,rosario",2.0579210513848167,4
+"argentina,santa rosa",1.6600191458243856,2
+"chile,santiago",3.424222676638672,36
+"argentina,santiago del estero",0.6095837420707699,1
+"argentina,santa fe",0.6095837420707699,1
+"argentina,salta",1.7468253808239018,3
+"argentina,san juan",1.3738845882347277,2
+"argentina,ushuaia",1.968594400134303,3
+"argentina,viedma",1.2784396556687259,2
+"russia,sochi",1.849913836122098,11
+"tajikistan,dushanbe",2.7348949478524256,27
+"armenia,yerevan",2.4382081851555317,23
+"moldova,chisinau",1.3650704347517488,19
+"russia,krasnoyarsk",2.7648509183759535,23
+"russia,krasnodar",2.406872553221652,23
+"russia,omsk",1.8562477641036617,11
+"russia,yekaterinburg",3.1796918437118626,39
+"uzbekistan,tashkent",2.779814259041756,38
+"norway,alesund",1.1365118618808439,10
+"poland,gdansk",1.895926555711252,38
+"norway,trondheim",2.0408023155862165,23
+"lithuania,vilnius",1.5556602731955433,30
+"united states,alexandria",0.35223325779183606,2
+"iceland,akureyri",3.4685330036983357,1
+"iceland,reykjavik",2.803135277302619,1
+"brazil,alta floresta",1.0131941482476639,1
+"brazil,cuiaba",3.926608401659409,15
+"morocco,agadir",1.4430955163822545,16
+"france,lille",1.849778100673314,22
+"germany,augsburg",0.5361765670454116,1
+"france,agen",0.3162506252896967,1
+"france,bordeaux",1.7026315133414054,38
+"slovakia,bratislava",1.3875458558612024,11
+"hungary,budapest",1.7349727923638942,55
+"united kingdom,exeter",1.2100802344510817,11
+"germany,munster",0.9361733372873658,7
+"switzerland,geneva",1.8903507081307225,74
+"norway,haugesund",1.1791872496638969,10
+"poland,krakow",1.5780199955764047,42
+"netherlands,rotterdam",1.2832713921836598,18
+"bulgaria,sofia",1.4247761048071486,30
+"united kingdom,southampton",1.667936372230997,17
+"france,toulouse",1.9646896719330227,38
+"finland,tampere",0.9768995527660613,8
+"italy,treviso",1.741675044651962,25
+"spain,valencia",1.6422534834864402,37
+"sweden,vasteras",0.5938899140905587,3
+"poland,warsaw",1.9556486242783768,69
+"poland,wroclaw",1.249091675625506,20
+"canada,montreal",2.3306266722324414,69
+"india,agra",1.5724787781628582,2
+"paraguay,ciudad del este",1.2473708425700079,2
+"mexico,aguascalientes",1.0870408621645586,6
+"mexico,cancun",2.519448328103953,72
+"mexico,mexico city",4.195459007107273,81
+"mexico,monterrey",2.9525284851996307,25
+"mexico,tijuana",4.10272637156707,26
+"saudi arabia,tabuk",1.1956432743459948,5
+"united states,athens",0.3879919051968932,1
+"united states,nashville",1.722770240204584,41
+"united states,alliance",1.3670080878222362,2
+"united states,chadron",1.423868140421525,2
+"france,ajaccio",1.9857429564714522,21
+"france,brest",1.2140449717472261,10
+"france,caen",0.8410585898888844,4
+"belgium,liege",1.343704266643149,4
+"france,montpellier",1.4852747258080021,15
+"france,nice",2.1308522103234675,66
+"italy,olbia",1.5077300274012477,26
+"france,poitiers",1.1958051862186516,5
+"turkey,agri",0.6990430179515221,2
+"brazil,aracaju",1.6986134309501164,7
+"brazil,brasilia",3.7788389619399436,42
+"brazil,maceio",1.681606248590069,7
+"brazil,recife",2.3801799248529796,17
+"brazil,salvador",3.298041095310097,25
+"brazil,campinas",4.716146437246206,41
+"japan,asahikawa",0.8710444323387829,3
+"japan,tokyo",3.123651599069535,102
+"japan,nagoya",3.1920741677122635,35
+"taiwan,taipei",2.7005647685225447,82
+"new zealand,christchurch",3.6127913096672843,17
+"new zealand,dunedin",1.2539185606505947,4
+"new zealand,gisborne",0.9833516415866455,2
+"new zealand,hamilton",1.6093557401534824,4
+"new zealand,kaitaia",0.6531085089402667,1
+"new zealand,kerikeri",0.6531085089402667,1
+"new caledonia,noumea",1.6200842138661629,7
+"new zealand,napier",1.2095956398266519,3
+"new zealand,new plymouth",1.2095956398266519,3
+"new zealand,nelson",1.6093557401534824,4
+"new zealand,palmerston north",2.046976445635396,5
+"new zealand,paraparaumu",1.0115477499445595,2
+"french polynesia,papeete",1.476671621771785,6
+"cook islands,avarua",1.2497546477892323,4
+"new zealand,rotorua",1.2095956398266519,3
+"new zealand,tauranga",1.2095956398266519,3
+"new zealand,taupo",0.9833516415866455,2
+"vanuatu,port-vila",1.6765029794004815,5
+"new zealand,whakatane",0.6531085089402667,1
+"new zealand,wellington",4.271495008854634,19
+"new zealand,whangarei",0.9833516415866455,2
+"china,aksu",0.7636178107218972,2
+"china,chengdu",2.9233470687484417,76
+"united states,cleveland",2.1593927938837916,50
+"united states,washington",2.797596146796694,134
+"united states,newark",2.225165239162522,127
+"united states,massena",0.7708589834282847,1
+"united states,ogdensburg",0.7708589834282847,1
+"iceland,keflavik",1.2593632267052965,30
+"norway,kristiansand",1.0964017812140867,8
+"sweden,karlstad",0.5498358778643834,2
+"poland,katowice",1.4553376433808476,18
+"lithuania,kaunas",1.1329140358815037,9
+"norway,molde",0.7992689078272627,4
+"netherlands,maastricht",1.456203169432668,6
+"finland,oulu",0.6750162859138862,3
+"finland,turku",0.9449885466532867,6
+"norway,tromso",2.223535329923727,12
+"sweden,umea",1.2807669962666506,4
+"sweden,vaxjo",1.3746422561720066,5
+"norway,alta",1.9153096366251816,4
+"norway,hammerfest",1.476574268075757,2
+"norway,kirkenes",1.3722737468799655,3
+"australia,albany",0.7264456166050535,1
+"united states,waterloo",0.3389132905061291,1
+"united states,alamosa",1.1844015770791914,2
+"united states,farmington",2.0831222417231476,3
+"united states,walla walla",0.4673767059881676,1
+"united states,amarillo",0.6654878091302489,5
+"libya,benghazi",1.7327717408036118,9
+"iraq,baghdad",1.2999274734808608,12
+"egypt,alexandria",1.7692372188658454,13
+"cyprus,larnaca",1.6159548287432437,36
+"romania,bucharest",2.5656877420104194,52
+"libya,tripoli",2.437779621672495,18
+"tunisia,tunis",2.350550233674714,49
+"indonesia,ambon",2.7234689455468666,5
+"indonesia,jakarta",3.9627345204530124,50
+"indonesia,manokwari",2.5980004584213297,3
+"indonesia,nabire",2.091521266177942,2
+"indonesia,sorong",2.4869851522593107,3
+"indonesia,surabaya",3.0336819496122165,21
+"aruba,oranjestad",1.4656135745248975,19
+"serbia,belgrade",1.8172621856968656,38
+"italy,bari",1.7215038176735058,28
+"switzerland,bern",0.9214848606038847,9
+"france,clermont-ferrand",0.8098855600750557,5
+"greece,chania",1.5942780275380688,29
+"south africa,cape town",3.163559296102262,16
+"italy,catania",1.6396831208136549,40
+"croatia,dubrovnik",1.6556497762545406,35
+"portugal,faro",2.021525931583632,42
+"italy,florence",1.295661351653903,23
+"portugal,funchal",1.4823319344173245,25
+"japan,fukuoka",2.02479421095924,23
+"kazakhstan,atyrau",0.5054022560481302,3
+"cuba,havana",2.4307240173980067,27
+"china,hangzhou",2.6857763700268533,58
+"cuba,holguin",1.0085575857893871,8
+"iran,tehran",1.6155261164242516,33
+"austria,innsbruck",0.6709193472986773,5
+"united kingdom,inverness",1.202882810865547,8
+"greece,chios",1.1779496586982967,4
+"greece,kos",1.46611557120443,21
+"japan,osaka",2.9787917017515855,56
+"turkey,konya",0.41896640941100327,2
+"peru,lima",4.266062640622638,49
+"italy,milan",1.4874739692432486,23
+"slovenia,ljubljana",1.3957966634480556,19
+"italy,naples",1.5847632463632122,36
+"portugal,porto",1.9203589342556657,42
+"portugal,ponta delgada",1.21874045743421,11
+"cyprus,paphos",1.4824277023156778,19
+"italy,palermo",1.5685034067177275,31
+"dominican republic,puerto plata",1.2758768343082012,12
+"italy,pisa",1.7991684274335178,40
+"panama,panama city",3.0586302765586844,64
+"morocco,marrakech",1.6582797270131462,37
+"greece,thessaloniki",1.7123469732870809,35
+"georgia,tbilisi",1.7463594218285592,17
+"ecuador,quito",3.087708171213253,21
+"italy,venice",1.670090861412393,56
+"china,xiamen",2.5952820616368335,53
+"canada,vancouver",3.0732022895592315,63
+"canada,calgary",3.168304088571884,51
+"canada,toronto",2.7583241789987234,123
+"croatia,zagreb",1.6420394850490068,25
+"united states,bethel",2.2693597544845066,2
+"united states,kenai",0.8975588277162077,1
+"united states,fairbanks",1.9301715594636302,3
+"united states,honolulu",2.1618712314376434,41
+"united states,homer",0.8975588277162077,1
+"united states,juneau",2.7621206583464777,5
+"chile,antofagasta",2.589596664689791,6
+"chile,calama",2.467531880715665,4
+"chile,iquique",2.242630321039478,5
+"chile,la serena",2.462909357221864,4
+"madagascar,antalaha",2.3515883419927253,3
+"madagascar,toamasina",2.2263074708576593,3
+"madagascar,antananarivo",3.675735776100271,14
+"madagascar,maroantsetra",2.799961084089073,4
+"belgium,antwerp",0.2924858474401963,1
+"china,anshan",0.5124748732759906,2
+"italy,ancona",0.8017819785830791,6
+"japan,aomori",1.1505470205654875,4
+"japan,sapporo",3.192267334038547,22
+"united states,altoona",1.3460194783975727,2
+"united states,johnstown",1.335451328868789,2
+"malaysia,alor setar",0.44659666384283286,1
+"united states,naples",0.26462771771911875,1
+"united states,miami",2.818305323272972,111
+"mozambique,nampula",2.5181733348722517,7
+"mozambique,beira",2.4706946400225682,6
+"mozambique,pemba",1.929702835270915,6
+"mozambique,tete",2.839830466295233,6
+"mozambique,lichinga",1.8219217901793043,2
+"united states,alpena",0.5187590000876815,2
+"china,anqing",1.0625946025694546,7
+"china,haikou",2.221284305976448,34
+"china,wuhan",2.4769221384056612,52
+"peru,arequipa",2.8532683863886974,4
+"peru,juliaca",1.7101628324859282,2
+"bolivia,la paz",3.8767276739341936,14
+"peru,tacna",1.7101628324859282,2
+"chile,arica",2.0543586042545807,4
+"tanzania,arusha",1.546636871046607,2
+"tanzania,zanzibar",2.051110431405279,7
+"australia,armidale",0.545112656044907,1
+"sweden,halmstad",1.1848556887692425,2
+"sweden,kristianstad",0.3956213998836561,1
+"greece,kalamata",0.7649168718896046,6
+"sweden,kiruna",0.3956213998836561,1
+"sweden,lulea",2.169041219263472,3
+"sweden,ornskoldsvik",0.3956213998836561,1
+"finland,pori",0.5837635856871842,2
+"croatia,pula",1.0821786271429337,11
+"sweden,sundsvall",1.4323549487652636,2
+"sweden,skelleftea",0.44934069847905966,2
+"bosnia and herzegovina,sarajevo",1.4985121926454457,12
+"croatia,split",1.6866068957182376,31
+"finland,vaasa",0.5837635856871842,2
+"sweden,visby",0.3956213998836561,1
+"united states,watertown",1.0752367038391695,4
+"brazil,aracatuba",0.777096566681823,2
+"romania,arad",0.4748966874356976,1
+"united states,aspen",0.4933020136003469,2
+"bolivia,santa cruz",2.4673378126923877,13
+"egypt,aswan",0.7179975616131217,2
+"greece,ioannina",0.536535877056128,1
+"greece,kavala",0.8137654284424438,4
+"greece,mytilini",1.1878874859327415,5
+"albania,tirana",1.2458518021760574,14
+"united states,appleton",0.7610560738960601,7
+"united states,austin",1.536150543524232,38
+"united states,asheville",0.8794255276449139,8
+"united states,scranton",0.5904698999277631,6
+"united states,kalamazoo",0.5486181231467783,4
+"united states,windsor locks",1.1759004444009278,22
+"united states,birmingham",0.8937403087138099,16
+"united states,bloomington",0.7187696360512597,7
+"colombia,bogota",5.341990830059419,61
+"united states,brunswick",0.18335779418938228,1
+"united states,baton rouge",0.40020785119730645,3
+"united states,burlington",0.6693486771596044,9
+"united states,buffalo",0.8870718268960144,17
+"belize,belize city",1.6103152907194034,12
+"united states,columbia",0.6197049892029591,8
+"united states,akron",0.750871685649963,11
+"venezuela,caracas",3.8332600274028743,33
+"united states,chattanooga",0.7116865302707438,7
+"united states,charleston",0.9027124871788664,16
+"united states,cedar rapids",0.9716540272034668,10
+"united states,columbus",1.1569053974835335,29
+"united states,colorado springs",0.762773906825404,10
+"united states,cincinnati",1.589181864068278,42
+"mexico,cozumel",0.7542851786801632,8
+"united states,daytona beach",0.2864276978231708,2
+"united states,dayton",0.8410179922104368,14
+"united states,dothan",0.18335779418938228,1
+"united states,des moines",0.9291684591251991,15
+"united states,panama city",0.6476455319493306,5
+"united states,el paso",0.9072275648127216,11
+"united states,evansville",0.46640976891437236,3
+"united states,new bern",0.2864276978231708,2
+"united states,key west",0.9079944545714477,8
+"united states,fargo",0.8861780042550026,9
+"united states,fayetteville",0.3315747449108057,3
+"united states,flint",0.7812390231816991,8
+"united states,sioux falls",0.850186380967874,8
+"united states,fort smith",0.18335779418938228,1
+"united states,fort wayne",1.0944332411373454,9
+"mexico,guadalajara",2.983907698653741,35
+"united states,gainesville",0.6049114971362619,5
+"united states,gulfport",0.40020785119730645,3
+"united states,green bay",0.5486181231467783,4
+"united states,killeen",0.35223325779183606,2
+"united states,grand rapids",1.06213870335198,19
+"united states,greensboro",0.77160274468782,12
+"united states,greenville",1.239363081097422,17
+"guatemala,guatemala city",1.9969786425845857,20
+"united states,huntsville",0.5971777014813875,7
+"united states,wichita",0.833043725206853,10
+"united states,wilmington",0.8178326456301219,11
+"united states,indianapolis",1.1658129174214023,30
+"united states,jackson",0.6919009777078066,8
+"united states,jacksonville",0.9650340071321082,20
+"jamaica,kingston",1.3597432286946998,12
+"united states,lansing",0.6232703389767256,6
+"united states,lafayette",0.35223325779183606,2
+"costa rica,liberia",0.9385087961838546,12
+"united states,little rock",0.8803236110960925,14
+"united states,lewisburg",0.2632406499486537,2
+"jamaica,montego bay",1.255855860206139,25
+"united states,saginaw",0.5486181231467783,4
+"united states,macon",0.40396757875310807,2
+"united states,harrisburg",0.8149865012403524,12
+"united states,meridian",0.18335779418938228,1
+"united states,memphis",1.7466874139410948,28
+"nicaragua,managua",1.0627293177583792,8
+"united states,montgomery",0.2864276978231708,2
+"united states,milwaukee",1.1528305422264267,29
+"united states,melbourne",0.2864276978231708,2
+"united states,moline",0.8780717848909758,9
+"united states,monroe",0.35223325779183606,2
+"united states,mobile",0.47232594446411363,4
+"united states,muscle shoals",0.18335779418938228,1
+"united states,madison",0.7910033298666561,10
+"united states,new orleans",1.2644432396766734,34
+"united states,oklahoma city",0.9873334334271467,19
+"united states,omaha",0.9172097599692132,17
+"united states,norfolk",0.8274366650249438,15
+"haiti,port-au-prince",1.1280076664064782,9
+"united states,west palm beach",1.1347725521482201,18
+"united states,newport news",0.525563668782299,5
+"united states,peoria",0.944901148548664,9
+"united states,pittsburgh",1.1218433580681129,30
+"united states,pensacola",0.7118377352432596,9
+"united states,providence",0.9614006055105614,17
+"mexico,puerto vallarta",1.4545368779177599,20
+"united states,richmond",0.8426798030238539,16
+"united states,rochester",0.9205312381057527,16
+"honduras,roatan",1.7326909775590613,9
+"el salvador,san salvador",1.8326306149748237,30
+"honduras,san pedro sula",1.6336180103405127,15
+"united states,san antonio",1.5124048873458165,32
+"united states,savannah",0.6439709188253112,10
+"united states,south bend",0.9663282910665254,9
+"united states,louisville",0.9365306501492938,19
+"dominican republic,santo domingo",1.7395545824013798,24
+"united states,springfield",0.9337946419379561,8
+"united states,shreveport",0.470577162786884,4
+"united states,san jose",1.5717854133213915,26
+"costa rica,san jose",2.5367348216539987,29
+"puerto rico,san juan",1.9933092786808808,32
+"united states,sacramento",1.444961628815684,26
+"united states,santa ana",1.2757488018777798,19
+"united states,sarasota",0.4957053044974548,5
+"united states,st. louis",2.568269671511835,53
+"united states,syracuse",0.8295292289788032,14
+"honduras,tegucigalpa",1.8566126306598405,11
+"united states,tallahassee",0.6034866107213792,6
+"united states,bristol",0.6417466393621782,4
+"united states,trenton",1.0239270744390065,12
+"united states,tulsa",0.8641388868398753,15
+"united states,tupelo",0.5145566621644027,2
+"united states,tucson",1.0153337776606455,14
+"united states,knoxville",0.9160107400385796,15
+"united states,valdosta",0.18335779418938228,1
+"united states,valparaiso",0.4226792666075243,4
+"united states,bentonville",0.844083058898148,13
+"brazil,altamira",2.4092053379412945,3
+"brazil,belem",3.7494095824295206,16
+"brazil,oriximina",2.2554477857531494,2
+"brazil,santarem",3.354791384179212,5
+"india,amritsar",1.447166649022245,5
+"india,srinagar",2.6904316720375685,5
+"united states,mesa",3.5837937732618905,31
+"united states,pierre",2.183540174298504,3
+"egypt,asyut",0.9656141980553105,4
+"dominican republic,la romana",1.1718468668071855,8
+"venezuela,maracaibo",2.2035192725370196,7
+"venezuela,valencia",2.0510903155516336,5
+"colombia,arauca",0.5861491096977065,1
+"united states,augusta",0.2798906462437831,1
+"india,calicut",1.9353220584774478,12
+"sri lanka,colombo",1.4853926606772634,26
+"india,kochi",1.6064623220099745,14
+"bangladesh,dhaka",2.7740018879425956,28
+"thailand,phuket",1.6747306019068995,25
+"pakistan,islamabad",2.469040071470724,30
+"india,jaipur",1.175474150967748,6
+"pakistan,karachi",2.8349312063948493,30
+"nepal,kathmandu",2.547838572261582,23
+"pakistan,lahore",2.11742207142667,28
+"maldives,male",1.1862260331069212,17
+"philippines,manila",3.774224294103695,49
+"pakistan,peshawar",1.4851660935042112,12
+"vietnam,ho chi minh city",3.393461073957815,36
+"united states,harlingen",1.4794480951074267,6
+"united states,lubbock",1.7017456592084994,7
+"united states,long beach",0.9793215408293128,12
+"brazil,araguaina",2.007615301969404,3
+"brazil,maraba",2.6569845487961197,5
+"brazil,palmas",1.9509898791825369,3
+"china,anshun",0.701351269684594,3
+"colombia,armenia",0.6443037722275498,2
+"japan,akita",1.1505470205654875,4
+"peru,ayacucho",0.6552494568707085,1
+"germany,dresden",0.9445584884121909,10
+"germany,erfurt",0.5600686928307401,2
+"netherlands,groningen",1.2314290604484492,4
+"austria,graz",0.8650172514468085,7
+"germany,kassel",0.5651870227015428,1
+"austria,linz",0.9556804607573827,5
+"russia,rostov",1.7843084737220052,15
+"austria,salzburg",1.2337156775810982,11
+"united states,billings",2.750267175555329,11
+"united states,bismarck",0.7505051167861441,5
+"united states,bellingham",1.0951936612392692,9
+"united states,bozeman",0.825911606663178,7
+"united states,duluth",0.6901194141322211,4
+"united states,eugene",0.9138757340237377,9
+"united states,grand forks",1.5713652066670283,5
+"united states,grand island",0.6052172161915728,2
+"united states,great falls",1.091192709735601,7
+"united states,idaho falls",0.7114793021156176,4
+"united states,minot",0.6917559976038579,4
+"united states,missoula",0.8307415642524443,7
+"united states,ogden",0.6796676462292071,1
+"united states,pasco",0.8726174631163317,8
+"united states,provo",0.7744659992291831,3
+"united states,rapid city",0.7713100536327065,6
+"united states,rockford",0.9831618834687884,5
+"iran,yazd",0.9095553990922073,2
+"algeria,adrar",1.9755823958538958,3
+"algeria,constantine",2.0294977422032403,9
+"algeria,ouargla",2.56951456056465,4
+"dominican republic,samana",1.05299723796168,5
+"turkey,batman",0.6990430179515221,2
+"colombia,barranquilla",1.019919405664636,4
+"colombia,cali",3.509659804695044,15
+"china,baotou",1.5877674093185592,14
+"china,zhengzhou",2.4456955698324494,46
+"china,chifeng",1.452130792401517,8
+"china,nanjing",2.2793051386545833,46
+"china,shenyang",2.81474833650356,48
+"china,shijiazhuang",2.3956880755437675,28
+"china,tianjin",2.3409318010904663,39
+"china,taiyuan",1.998182638348283,35
+"china,xi'an",3.1083835435468288,60
+"russia,barnaul",0.3619543157584742,1
+"romania,baia mare",0.5793597198917414,1
+"brazil,barcelos",1.0061054190099468,1
+"brazil,manaus",3.7643643431005303,17
+"botswana,kasane",1.2580442538488832,2
+"botswana,maun",2.0896652968119698,5
+"philippines,bacolod",1.6292742659728952,2
+"philippines,davao",2.6242947624859836,5
+"australia,barcaldine",1.2638055732295723,2
+"australia,longreach",1.7472989164108956,3
+"spain,badajoz",0.5412926375183761,2
+"romania,cluj-napoca",1.4136969478823558,15
+"morocco,fes",1.431099153129144,12
+"italy,genoa",1.3200820626962388,15
+"spain,granada",0.5647575839205401,3
+"spain,almeria",0.9783165536310934,10
+"spain,leon",0.4128049499141996,1
+"poland,poznan",0.9963631468880392,12
+"spain,burgos",0.4128049499141996,1
+"france,rennes",1.3020293935539387,9
+"spain,salamanca",0.4128049499141996,1
+"romania,timisoara",1.152229089392254,11
+"spain,vigo",0.8129357137976685,4
+"spain,valladolid",0.4128049499141996,1
+"australia,bundaberg",0.6075822778305997,1
+"indonesia,banjarmasin",2.2093722968706486,6
+"indonesia,bandung",2.155645096069213,8
+"indonesia,balikpapan",2.4490839406607665,10
+"indonesia,yogyakarta",2.4952531693598603,11
+"indonesia,semarang",1.6877711608840187,7
+"malaysia,johor bahru",2.4116239532370067,9
+"indonesia,pekanbaru",1.512070906145847,5
+"italy,brindisi",1.2307670962557873,14
+"bosnia and herzegovina,banja luka",1.0905935482394045,3
+"macedonia,skopje",1.3136647689315153,17
+"montenegro,podgorica",0.9874599904441815,11
+"bulgaria,varna",0.9050969373222596,6
+"brazil,breves",1.052363386137788,1
+"french guiana,cayenne",1.2611307805434275,3
+"brazil,belo horizonte",4.391401292587428,35
+"brazil,fortaleza",2.488163361276142,16
+"brazil,imperatriz",1.9534419247843147,5
+"brazil,macapa",1.052363386137788,1
+"brazil,sao luis",2.0590695225005553,8
+"tunisia,sfax",1.3581582857288297,4
+"france,bastia",1.6390287241610069,19
+"united states,marshall",2.015693979307934,1
+"australia,bedourie",1.6044321795936718,2
+"australia,boulia",1.4610534260451042,2
+"australia,birdsville",1.33477629771836,2
+"mozambique,quelimane",2.0311010667824663,3
+"united states,bradford",1.374669492915054,2
+"united states,jamestown",1.472146695136787,2
+"united states,scottsbluff",0.34284109083805714,1
+"united states,port angeles",0.4673767059881676,1
+"united states,bakersfield",0.733567243241158,5
+"south africa,bloemfontein",1.4924710548810527,3
+"south africa,durban",2.9260197114375415,10
+"spain,murcia",1.3302309378127386,12
+"thailand,buri ram",0.4210937182148723,1
+"colombia,bucaramanga",0.7139812579658846,2
+"central african republic,bangui",1.2553038053509713,4
+"cameroon,yaounde",2.465820537451562,11
+"turkey,bingol",0.6990430179515221,2
+"barbados,bridgetown",2.021262554957465,12
+"martinique,fort-de-france",2.059273131934267,10
+"guyana,georgetown",1.1511835642121055,5
+"saint lucia,castries",2.1926861830802697,3
+"saint vincent and the grenadines,kingstown",1.808503785146561,2
+"united states,binghamton",0.4406787849398324,3
+"norway,bodo",2.3918152216146273,6
+"norway,skien",0.5901483601683595,1
+"united states,bangor",0.7474835668289419,6
+"italy,cagliari",2.1121443298936513,25
+"romania,craiova",0.5011082292227049,2
+"france,tarbes",0.6788911327212919,5
+"finland,lappeenranta",0.4748966874356976,1
+"bosnia and herzegovina,mostar",0.4748966874356976,1
+"italy,pescara",1.033183880506548,5
+"united states,bar harbor",0.2798906462437831,1
+"india,bhuj",0.5863983807661655,1
+"uzbekistan,bukhara",0.6825150284319131,2
+"india,bhopal",1.3231977063440736,3
+"australia,dubbo",1.275818435505128,2
+"australia,bathurst",1.5974251291637827,2
+"australia,parkes",1.517461505017224,2
+"pakistan,bahawalpur",1.7905269137743496,4
+"poland,bydgoszcz",0.6318683684644991,3
+"gibraltar,gibraltar",0.642479333185277,3
+"ireland,waterford",0.6420699668196331,2
+"china,beihai",1.5098685476148692,14
+"china,kunming",3.5418094020752897,68
+"china,guilin",1.9163036088469405,34
+"china,luoyang",1.2761865821514928,9
+"china,shenzhen",3.094645651761094,63
+"indonesia,biak",1.5535817303305628,1
+"indonesia,jayapura",3.9622452654439186,5
+"united states,glendive",1.0180386384491054,1
+"united states,glasgow",1.0180386384491054,1
+"united states,havre",1.0180386384491054,1
+"united states,sidney",1.0180386384491054,1
+"nepal,biratnagar",0.824529721726193,1
+"united states,bemidji",0.3905613006787229,1
+"burundi,bujumbura",1.1717432833777968,4
+"united states,branson",0.6703350983987878,4
+"malaysia,kota kinabalu",2.845167209191301,23
+"malaysia,bintulu",1.8710788302754044,5
+"brunei,bandar seri begawan",1.3000420847188057,12
+"malaysia,kuching",2.5612933622508334,8
+"malaysia,lahad datu",0.7927417416314357,1
+"malaysia,miri",2.4136789127910374,9
+"philippines,puerto princesa",2.0617604822588627,4
+"malaysia,sibu",2.0994337109990804,6
+"malaysia,sandakan",1.542007753864943,3
+"malaysia,tawau",1.958699850799273,4
+"india,kolkata",3.7465789732743353,26
+"thailand,chiang rai",0.6152213676306035,2
+"bangladesh,chittagong",1.2347596681194497,9
+"thailand,chiang mai",2.633151237490977,20
+"philippines,angeles city",0.8744888555434338,5
+"china,fuzhou",2.0330873867373045,40
+"india,guwahati",2.58245500089968,8
+"vietnam,hanoi",3.0865104075215863,30
+"thailand,hat yai",0.8978322989430518,4
+"thailand,krabi",0.8978322989430518,4
+"taiwan,kaohsiung",1.828847730991741,29
+"thailand,khon kaen",0.4210937182148723,1
+"thailand,lampang",0.4210937182148723,1
+"burma,mandalay",2.195404619737323,3
+"macau,macau",2.0897093795479247,31
+"china,nanning",2.1838220357891496,38
+"russia,novosibirsk",2.753878252609175,35
+"china,shantou",1.623887515609755,20
+"china,qingdao",2.9211262064168118,46
+"thailand,trat",0.4210937182148723,1
+"thailand,sukhothai",0.4210937182148723,1
+"china,jinan",2.0809000450987676,35
+"thailand,ubon ratchathani",0.4210937182148723,1
+"thailand,surat thani",0.5666102251556046,2
+"thailand,udon thani",0.9756833459882777,3
+"laos,vientiane",1.9773056243034233,9
+"laos,savannakhet",1.1249446108091963,2
+"guinea,conakry",1.9422059436415153,6
+"indonesia,bengkulu",0.653971754857329,1
+"united states,beckley",0.2197612636503148,1
+"tanzania,bukoba",2.183999208331202,1
+"tanzania,mwanza",2.4373908358547305,3
+"venezuela,barcelona",1.6313539570951152,5
+"venezuela,porlamar",3.729821586761014,9
+"sweden,borlange",3.3177809827145692,1
+"sweden,orebro",3.0533426700339024,1
+"united states,palm springs",1.2216227296351865,16
+"algeria,batna",0.6950898919770157,3
+"romania,iasi",0.7857740589281523,5
+"united states,belleville",0.43283508941307475,1
+"malawi,blantyre",1.4906523512676961,5
+"sweden,trollhattan",0.3956213998836561,1
+"australia,broome",1.8327465751284056,8
+"australia,kununurra",1.2826418283891963,3
+"australia,karratha",1.458732437282888,6
+"australia,port hedland",1.5102377520265178,6
+"congo (kinshasa),boende",2.048683916031027,2
+"congo (kinshasa),mbandaka",3.3676945557427307,3
+"congo (kinshasa),beni",2.541017939166757,2
+"congo (kinshasa),bunia",3.532556336128536,3
+"congo (kinshasa),goma",3.382831989348243,3
+"australia,cloncurry",1.4677241230445348,3
+"australia,emerald",0.6075822778305997,1
+"australia,gladstone",1.511357083646894,3
+"australia,hobart",0.9002324801044104,3
+"solomon islands,honiara",2.223320772974891,4
+"australia,hervey bay",0.7527209584483902,2
+"australia,mount isa",1.8727125654366072,6
+"australia,launceston",1.5866000110248313,4
+"australia,mackay",1.6911453181775498,5
+"australia,moranbah",1.1023358474069809,2
+"australia,newcastle",0.9002324801044104,3
+"papua new guinea,port moresby",3.757448501061983,19
+"australia,port macquarie",0.7527209584483902,2
+"australia,roma",0.6075822778305997,1
+"australia,rockhampton",1.9025045215866143,3
+"australia,townsville",2.3634386274151686,10
+"australia,toowoomba",0.7527209584483902,2
+"venezuela,barinas",0.7488576876701615,1
+"panama,bocas del toro",0.7536338997425063,1
+"colombia,buenaventura",0.5861491096977065,1
+"colombia,cartagena",1.0233834049375268,6
+"colombia,cucuta",0.7139812579658846,2
+"colombia,barrancabermeja",0.5861491096977065,1
+"colombia,medellin",3.5488206691103525,5
+"colombia,yopal",0.5861491096977065,1
+"colombia,florencia",0.5861491096977065,1
+"ecuador,guayaquil",2.47500828963197,16
+"colombia,ibague",1.6474307854800718,2
+"colombia,ipiales",0.5861491096977065,1
+"colombia,leticia",0.5861491096977065,1
+"colombia,monteria",1.6474307854800718,2
+"colombia,mitu",1.7788954468354927,2
+"colombia,manizales",0.5861491096977065,1
+"colombia,neiva",0.5861491096977065,1
+"colombia,puerto carreno",1.7788954468354927,2
+"colombia,pereira",1.5259802745549462,3
+"colombia,popayan",0.5861491096977065,1
+"colombia,pasto",1.0944167311673876,2
+"colombia,san jose del guaviare",0.5861491096977065,1
+"colombia,santa marta",0.5861491096977065,1
+"colombia,tame",0.5861491096977065,1
+"colombia,quibdo",1.8193806917379594,3
+"colombia,valledupar",0.5861491096977065,1
+"colombia,villavicencio",2.1362259320855768,3
+"united states,boise",1.4614488354153077,16
+"united states,spokane",0.9962115341301762,10
+"united states,lewiston",1.6489578429323257,4
+"india,coimbatore",1.1871677958822864,5
+"india,diu",2.030472424408155,2
+"india,gwalior",0.5863983807661655,1
+"india,hubli",0.5863983807661655,1
+"india,indore",2.0792126314846735,5
+"india,chandigarh",1.478069145744065,3
+"india,allahabad",0.7413441267482825,2
+"india,mangalore",1.175960902857529,7
+"india,jammu",1.478069145744065,3
+"india,aurangabad",0.7413441267482825,2
+"india,jodhpur",0.7413441267482825,2
+"india,jabalpur",0.7413441267482825,2
+"india,lucknow",1.7021160167732385,7
+"india,nagpur",2.154240301886772,7
+"india,pune",1.9515036983557146,8
+"india,rajkot",0.5863983807661655,1
+"india,raipur",2.7805149480896394,7
+"india,surat",0.7413441267482825,2
+"india,udaipur",0.7413441267482825,2
+"india,varanasi",2.08244473153256,5
+"india,vishakhapatnam",1.4403467323099208,5
+"norway,mo i rana",1.2702677562645452,2
+"norway,narvik",1.2293451238838076,1
+"united states,islip",1.104961218755111,11
+"united states,lebanon",0.7359981594402476,2
+"united states,plattsburgh",0.9205068656880268,5
+"united states,presque isle",0.2798906462437831,1
+"united states,rockland",0.2798906462437831,1
+"united states,rutland",0.2798906462437831,1
+"united states,saranac lake",0.2798906462437831,1
+"dominican republic,santiago",0.7765276287848103,7
+"canada,halifax",2.494364816779582,25
+"canada,ottawa",1.725389491350462,23
+"burkina faso,bobo-dioulasso",1.1167195155041845,1
+"indonesia,manado",3.23062663964671,7
+"indonesia,palu",1.3983294701601865,3
+"brazil,porto seguro",1.2459120181431194,5
+"puerto rico,aguadilla",0.610148493154231,4
+"brazil,barreiras",1.0074949702392064,2
+"united states,brainerd",1.426409982759224,2
+"united states,international falls",1.5716351257686114,2
+"france,beziers",0.8814240884956432,6
+"venezuela,barquisimeto",1.2546587697614267,2
+"united states,brownsville",0.35604194915781073,1
+"france,limoges",1.1568159441231882,8
+"poland,rzeszow",0.7995307097273047,7
+"tunisia,monastir",1.1689102867810202,9
+"brazil,campo grande",2.659697827678464,9
+"brazil,goiania",2.0879643286254437,9
+"brazil,ilheus",1.3128984257010263,6
+"brazil,juazeiro do norte",1.4378851144453448,5
+"brazil,joao pessoa",1.4177886157301391,6
+"brazil,natal",1.6135131529405586,9
+"brazil,sinop",1.1014641224708595,2
+"brazil,petrolina",1.9770862361691206,5
+"brazil,porto velho",1.9868461004706435,4
+"brazil,ribeirao preto",2.0753383285183022,9
+"brazil,rio branco",2.847944017053241,3
+"brazil,sao jose do rio preto",1.4874444097742425,5
+"brazil,teresina",1.7164342658976552,6
+"brazil,uberlandia",2.0157130362618543,7
+"brazil,vitoria",1.9261503557957034,7
+"china,baoshan",0.5210383504093078,1
+"equatorial guinea,bata",1.3364410638611226,2
+"algeria,biskra",0.551154656745723,2
+"indonesia,banda aceh",0.7186818390679993,2
+"russia,bratsk",0.9508765965652923,3
+"united states,butte",0.4378972315069463,1
+"slovakia,kosice",0.9284644433660744,3
+"azerbaijan,baku",1.953660858202213,25
+"zimbabwe,bulawayo",1.5235533194752389,3
+"zimbabwe,victoria falls",2.262771230596607,5
+"united states,burbank",1.40054098266662,12
+"united states,imperial",0.9499502742960734,2
+"georgia,batumi",0.8452842525691407,3
+"congo (kinshasa),isiro",2.6921959202119012,2
+"brazil,boa vista",1.0061054190099468,1
+"brazil,vilhena",1.0131941482476639,1
+"australia,windorah",1.9444572935269528,2
+"australia,burnie",1.4688336310578542,2
+"philippines,butuan",0.6686873240224834,1
+"guatemala,flores",1.1841725147041342,2
+"mexico,merida",1.468345959037412,8
+"bangladesh,barisal",0.8923494291434084,1
+"italy,bolzano",0.3611830777120867,1
+"congo (brazzaville),brazzaville",1.8398074167204297,12
+"angola,cabinda",0.7764748421742278,1
+"brazil,cascavel",1.0731147193028447,3
+"italy,perugia",0.8706976267467774,4
+"italy,parma",0.6651644697520754,2
+"vietnam,ca mau",0.7447122265717532,1
+"egypt,luxor",0.8768502289729366,6
+"sudan,port sudan",1.023817158648913,4
+"china,changde",1.0855804375710452,8
+"china,changchun",1.9829312940528776,25
+"china,changzhi",1.2194269020658888,9
+"china,changzhou",1.4528600056163334,15
+"china,dalian",3.0684311672273865,47
+"china,fuyang",1.221902099020759,9
+"china,guangyuan",0.8162517506355083,4
+"china,handan",0.9177893448166673,5
+"china,hohhot",2.2876644792770584,27
+"china,hefei",1.8516686814249699,30
+"china,zhijiang",0.44201419934617225,1
+"china,harbin",2.81958266126536,42
+"china,huangyan",1.0758041252748631,6
+"china,jingdezhen",1.0414214022754746,8
+"china,jiujiang",0.7545757573986672,4
+"china,quanzhou",1.345496153460149,14
+"china,jining",1.133644248436798,9
+"china,nanchang",1.9943417902434963,34
+"china,ganzhou",1.214545484807486,10
+"china,lanzhou",2.2903404893534254,27
+"china,linyi",1.2510191460336957,10
+"china,liuzhou",1.2430476766973475,11
+"china,luzhou",1.224474408339359,10
+"china,mianyang",1.5176839965919138,13
+"china,nanyang",0.9955468381323257,7
+"taiwan,taichung",1.7341130846240997,17
+"china,sanya",2.1923549539532177,36
+"china,tongren",0.8680722791455903,4
+"china,weifang",0.9692755723528907,6
+"china,wenzhou",1.8386174445373182,26
+"china,wuxi",1.439380924623356,18
+"china,yibin",0.9968927374390238,7
+"china,yantai",1.6002824653173302,20
+"china,yancheng",1.218140458721033,11
+"china,yangzhou",1.3153755619880194,12
+"china,zhanjiang",1.2603422072009305,11
+"china,zunyi",1.2740119069799825,12
+"brazil,campos",1.4513449476076172,2
+"bolivia,cochabamba",2.712768722651318,7
+"bolivia,cobija",2.050392885381241,3
+"bolivia,sucre",2.292098699761207,4
+"bolivia,trinidad",3.152127742573426,5
+"bolivia,tarija",2.312824549669192,4
+"philippines,cotabato",0.6686873240224834,1
+"oman,salalah",1.137463045081329,6
+"brazil,criciuma",1.2612669197951596,2
+"chile,concepcion",3.1176973522804516,4
+"chile,puerto montt",3.1846072127907914,4
+"chile,valdivia",1.7791593638028953,2
+"chile,temuco",1.7791593638028953,2
+"venezuela,cumana",0.7488576876701615,1
+"venezuela,coro",0.7488576876701615,1
+"venezuela,merida",0.7488576876701615,1
+"venezuela,maturin",1.2546587697614267,2
+"venezuela,puerto ayacucho",0.7488576876701615,1
+"venezuela,valera",0.7488576876701615,1
+"india,imphal",2.6525078647995755,4
+"india,agartala",2.086678297187697,3
+"india,ranchi",1.0422252324772385,3
+"india,silchar",2.086678297187697,3
+"india,port blair",0.9684697885448129,2
+"bhutan,thimphu",1.6911319714923891,4
+"india,shillong",0.9342119985052719,1
+"united states,cedar city",0.4378972315069463,1
+"guadeloupe,pointe-a-pitre",1.463259154393733,7
+"morocco,rabat",0.8142890821287397,6
+"canada,quebec",1.7421842202120208,11
+"united states,crescent city",0.44930920657565904,1
+"russia,cherepovets",1.8753873593689894,4
+"russia,kaliningrad",1.6741886096683745,6
+"russia,murmansk",1.5572751981211752,3
+"russia,chelyabinsk",1.7143012099348844,9
+"kyrgyzstan,bishkek",1.9780161763854645,15
+"uzbekistan,namangan",1.7184220838441653,8
+"kyrgyzstan,osh",1.8916241301950059,11
+"mexico,ciudad obregon",1.3314395227531544,4
+"mexico,hermosillo",2.5126466318101293,12
+"united states,cortez",0.34284109083805714,1
+"brazil,cabo frio",1.0496164599398585,3
+"brazil,cacador",1.7639894302040244,2
+"brazil,joacaba",2.7351132017532507,3
+"brazil,londrina",1.7225604285489464,6
+"brazil,maringa",1.965653693949041,7
+"brazil,rondonopolis",1.0131941482476639,1
+"brazil,caxias do sul",1.0731147193028447,3
+"brazil,foz do iguacu",1.3790246090253506,6
+"brazil,bauru",0.777096566681823,2
+"united states,cape girardeau",0.35255746494927637,1
+"indonesia,jambi",0.653971754857329,1
+"indonesia,kendari",0.653971754857329,1
+"indonesia,praya",1.7316845063405226,8
+"indonesia,malang",0.8768419461236941,2
+"indonesia,padang",0.7186818390679993,2
+"indonesia,palangkaraya",1.0380829353298135,2
+"indonesia,palembang",1.221761394662421,5
+"indonesia,pontianak",1.309986625270827,2
+"indonesia,ternate",1.35436251444996,2
+"austria,klagenfurt",0.7991532169967385,4
+"croatia,rijeka",1.0977424631884856,8
+"croatia,zadar",1.2947202329082261,15
+"china,korla",0.9887500444087928,4
+"china,yulin",1.0526393345151166,6
+"china,xining",1.9050116030559647,15
+"china,zhuhai",2.212268702341866,25
+"china,baishan",1.0875225195204123,4
+"china,yanji",1.0439386682366567,5
+"brazil,corumba",1.3046273753098852,1
+"brazil,dourados",1.2563453563658513,3
+"new zealand,hokitika",0.8959462286052247,1
+"new zealand,invercargill",1.1419270249962599,2
+"china,chaoyang",0.6569055786407867,2
+"united states,chico",0.44930920657565904,1
+"zambia,chipata",1.05039562000325,1
+"peru,chiclayo",0.6552494568707085,1
+"brazil,coari",1.0061054190099468,1
+"peru,cajamarca",0.6552494568707085,1
+"chile,copiapo",2.1074545493492587,3
+"thailand,chumphon",0.4210937182148723,1
+"united states,clarksburg",1.4785202468974703,3
+"united states,morgantown",1.231705059239913,2
+"china,lhasa",1.512173775751237,9
+"china,xichang",0.8056938798382998,3
+"china,zhaotong",0.7154840427073382,2
+"guinea-bissau,bissau",1.562995402998201,3
+"turkey,canakkale",0.7275106357014913,1
+"united states,erie",0.5051371984354552,3
+"united states,franklin",0.3477525094674502,1
+"united states,parkersburg",0.3477525094674502,1
+"united states,college station",0.35604194915781073,1
+"ecuador,esmeraldas",1.539160224165386,3
+"colombia,guapi",1.0898087700532078,1
+"colombia,tumaco",1.0898087700532078,1
+"mexico,colima",0.8776834188001035,2
+"united states,florence",0.2552692328605506,1
+"united states,hilton head island",0.3101995160364702,2
+"united states,huntington",0.8925080362835671,4
+"united states,lynchburg",0.2552692328605506,1
+"united states,salisbury",0.33087123624986053,2
+"mexico,ciudad del carmen",0.5834062309363225,2
+"united states,reno",1.0488761587183295,12
+"united states,champaign",0.3389132905061291,1
+"papua new guinea,kundiawa",0.8311353240478834,1
+"cuba,camaguey",0.875191132647542,3
+"romania,constanta",0.34298346481452674,1
+"brazil,campina grande",1.6298539442471247,3
+"brazil,ipatinga",0.8350871378021277,2
+"brazil,juiz de fora",0.9314686992796141,2
+"brazil,montes claros",0.7576145419261248,1
+"brazil,uberaba",1.413239765357608,4
+"australia,weipa",0.8899948995433791,1
+"thailand,mae hong son",0.8317969863929047,1
+"thailand,nan",0.8181497673740092,2
+"thailand,phitsanulok",0.8181497673740092,2
+"united states,moab",0.4378972315069463,1
+"united states,cody",0.5098296878230139,2
+"mexico,campeche",0.537369346547212,1
+"united states,casper",0.5176579563328253,3
+"south africa,east london",2.0665276388277256,4
+"south africa,george",1.4924710548810527,3
+"south africa,kimberley",1.052210831896069,2
+"south africa,port elizabeth",2.0001853908360587,4
+"south africa,upington",1.052210831896069,2
+"france,nimes",1.1000874231822417,4
+"france,la rochelle",1.2759453185560312,7
+"france,perpignan",0.7427246405893027,5
+"united states,corpus christi",1.1211289104063382,2
+"russia,cheboksary",0.3619543157584742,1
+"mexico,chetumal",0.537369346547212,1
+"japan,fukushima",1.0013859186069358,2
+"japan,hiroshima",1.3347188635582052,6
+"japan,hakodate",1.1700411666117412,5
+"japan,niigata",1.3466090638333847,7
+"japan,kanazawa",1.4179563828536725,6
+"japan,okayama",1.076223668180511,5
+"japan,sendai",2.119305616849013,11
+"japan,toyama",1.055881170447533,5
+"japan,kobe",2.07777677393516,5
+"russia,yuzhno-sakhalinsk",1.4889846966534357,6
+"china,dali",0.8635473998320414,3
+"ecuador,cuenca",1.2840849961139262,2
+"mexico,culiacan",1.7407438310078363,6
+"mexico,la paz",1.8580492313091679,6
+"mexico,chihuahua",1.7276608398430242,8
+"mexico,oaxaca",1.0836055746056277,5
+"mexico,puebla",1.1576178133449644,5
+"mexico,queretaro",1.0352703368963077,4
+"mexico,reynosa",0.8713131676775057,3
+"mexico,san luis potosi",1.4737931640960011,5
+"mexico,tampico",0.9230536244399364,4
+"mexico,toluca",1.2047723114545879,7
+"mexico,torreon",1.2449094646863659,5
+"mexico,villahermosa",1.3814593613281254,6
+"canada,edmonton",2.463519626106146,34
+"united states,morristown",0.6373502077288575,1
+"mexico,ciudad victoria",0.537369346547212,1
+"brazil,guarapuava",0.9407971747550086,1
+"brazil,chapeco",1.5773386062623633,4
+"canada,victoria",1.1439319085983861,8
+"vietnam,nha trang",0.963039843318083,3
+"philippines,calbayog city",0.6686873240224834,1
+"united states,cheyenne",1.8348679712097904,2
+"united states,worland",2.3001602644560033,1
+"russia,cherskiy",0.9899168615378313,1
+"russia,yakutsk",2.8901894337565204,13
+"algeria,ghardaia",2.0407777839359604,3
+"algeria,hassi messaoud",1.2452096986743582,3
+"brazil,cruzeiro do sul",2.075575172758719,1
+"bangladesh,jessore",0.8923494291434084,1
+"bangladesh,saidpur",2.3953087007910683,2
+"united states,el dorado",1.6640581459356036,3
+"united states,midland",1.043533350327561,5
+"comoros,moroni",1.8905295865794427,5
+"tanzania,mbeya",0.960725230634171,1
+"tanzania,mtwara",0.960725230634171,1
+"papua new guinea,daru",0.8311353240478834,1
+"panama,david",0.7536338997425063,1
+"croatia,osijek",0.9251019082688162,4
+"united states,dodge city",1.540894708082267,2
+"united states,liberal",1.58671637288035,2
+"china,dandong",0.7137912802552041,3
+"pakistan,dera ghazi khan",1.1526944402975785,3
+"hungary,debrecen",0.5416693693336974,2
+"united states,decatur",0.451537101872644,2
+"india,dehra dun",1.4129031976964939,2
+"india,gorakhpur",0.5488744046795955,1
+"afghanistan,herat",1.4161577403744536,4
+"afghanistan,kabul",2.12226532657326,12
+"afghanistan,kandahar",1.2599955562177945,4
+"united states,dickinson",0.47891886642964493,2
+"united states,durango",0.5406096323044932,2
+"united states,vail",0.34284109083805714,1
+"united states,fresno",1.0025422224305847,10
+"united states,kalispell",0.676199050652075,5
+"united states,gillette",1.2483306751669203,3
+"united states,grand junction",0.6701523684120326,5
+"united states,gunnison",0.34284109083805714,1
+"united states,hayden",0.34284109083805714,1
+"united states,helena",0.9651103989186846,5
+"united states,williston",0.47891886642964493,2
+"united states,laramie",0.34284109083805714,1
+"united states,north platte",0.34284109083805714,1
+"united states,lihue",1.2228242704620689,11
+"united states,lincoln",0.5400351187176253,3
+"united states,mccook",0.34284109083805714,1
+"united states,medford",0.7714989875562434,7
+"united states,monterey",0.8027578066848701,6
+"united states,kahului",1.5143420022778589,15
+"united states,ontario",1.2000291361180557,14
+"united states,page",0.5406096323044932,2
+"united states,pueblo",0.34284109083805714,1
+"united states,rock springs",1.2695043441969673,3
+"united states,santa fe",0.4933020136003469,2
+"united states,santa barbara",0.7953702458201989,6
+"united states,sheridan",0.34284109083805714,1
+"canada,fort mcmurray",1.3213372023968508,6
+"canada,regina",1.0297810593563337,9
+"canada,winnipeg",2.511349234576124,22
+"canada,saskatoon",1.0297810593563337,9
+"mexico,durango",0.8802866604721921,4
+"madagascar,antsiranana",1.8841177742454105,2
+"madagascar,sambava",2.487108005086037,3
+"france,dijon",0.6388929242750405,1
+"india,porbandar",1.7254457110769363,2
+"algeria,djanet",2.360591973007911,2
+"algeria,tamanrasset",2.7190044265492888,3
+"indonesia,merauke",1.5535817303305628,1
+"senegal,ziguinchor",0.9087594409170252,1
+"cameroon,garoua",1.7008832405093401,3
+"cameroon,maroua",1.421201380991495,2
+"china,jiamusi",1.2366618876200512,7
+"china,mudanjiang",0.9638024741750851,5
+"china,qinhuangdao",1.0303316440988428,4
+"russia,belgorod",1.9864461484467957,7
+"russia,elista",0.3619543157584742,1
+"russia,magadan",1.3236379902073248,4
+"russia,nizhniy novgorod",1.7545377802868618,10
+"russia,khanty-mansiysk",1.6196028787953454,5
+"russia,chita",1.669515340740249,6
+"russia,izhevsk",0.6614055518375096,2
+"russia,khabarovsk",2.3433341839877313,15
+"kazakhstan,kokshetau",0.3619543157584742,1
+"russia,kurgan",0.6614055518375096,2
+"russia,samara",1.7585544179340546,11
+"russia,apatity",0.3619543157584742,1
+"azerbaijan,lankaran",0.3619543157584742,1
+"armenia,gyumri",0.3619543157584742,1
+"russia,makhachkala",0.7622102340792873,2
+"russia,nizhnekamsk",1.06433978753589,5
+"uzbekistan,nukus",0.6825150284319131,2
+"russia,nizhnevartovsk",1.5601726881364462,5
+"russia,novokuznetsk",0.3619543157584742,1
+"russia,nadym",1.5818892131176543,4
+"russia,orsk",0.3619543157584742,1
+"russia,petrozavodsk",0.3619543157584742,1
+"russia,penza",0.3619543157584742,1
+"kazakhstan,pavlodar",0.3619543157584742,1
+"russia,orenburg",0.7403265266753004,2
+"russia,gorno-altaysk",0.3619543157584742,1
+"russia,saratov",0.9316412000847865,3
+"russia,surgut",2.1333775323180455,9
+"uzbekistan,samarkand",1.0510832638689431,4
+"russia,saransk",0.3619543157584742,1
+"russia,salekhard",1.3552861709623025,4
+"russia,tomsk",1.223338355165576,3
+"russia,ufa",1.6238142662349724,10
+"russia,ulan-ude",1.8394505610613094,9
+"russia,vorkuta",1.3998251492498224,2
+"russia,volgograd",1.3012840076031476,7
+"russia,voronezh",0.9774523333983162,4
+"russia,vladivostok",1.5762794346981495,9
+"thailand,nakhon phanom",0.4210937182148723,1
+"thailand,loei",0.4210937182148723,1
+"thailand,tak",0.4210937182148723,1
+"thailand,narathiwat",0.4210937182148723,1
+"thailand,nakhon si thammarat",0.4210937182148723,1
+"thailand,phrae",0.4210937182148723,1
+"thailand,roi et",0.4210937182148723,1
+"thailand,sakon nakhon",0.4210937182148723,1
+"thailand,trang",0.4210937182148723,1
+"thailand,ranong",0.4210937182148723,1
+"united kingdom,dundee",0.2924858474401963,1
+"china,dunhuang",1.0900481406829454,4
+"turkey,denizli",0.34298346481452674,1
+"iran,shiraz",2.4986990393158752,12
+"australia,devonport",0.634843269518801,1
+"indonesia,kupang",2.975139474610574,5
+"indonesia,maumere",1.5073879505674628,2
+"indonesia,waingapu",0.688798441404746,1
+"china,daqing",0.6585787038082382,2
+"costa rica,puntarenas",0.7536338997425063,1
+"turkey,zonguldak",0.8364985548022966,1
+"united states,elmira",0.751472237142406,5
+"united states,escanaba",0.4038511101780336,1
+"united states,ithaca",0.45259509253383373,3
+"united states,newburgh",0.7744339615990485,5
+"united states,traverse city",0.5707607283394801,3
+"poland,szczecin",0.9564588383081774,6
+"france,tours",0.8957282375851184,5
+"philippines,iloilo",1.841048681580278,5
+"iran,esfahan",1.9902353010309308,7
+"pakistan,multan",1.4881408537375937,7
+"iran,tabriz",1.6052316627939547,7
+"iran,zahedan",2.4003594522698726,5
+"united states,wenatchee",0.4673767059881676,1
+"united states,eau claire",0.3389132905061291,1
+"uganda,arua",0.8448995403329672,1
+"kenya,eldoret",2.6228510321521195,3
+"kenya,lodwar",1.7526070659396198,2
+"united states,elko",0.4378972315069463,1
+"united states,hot springs",1.3676995637121219,2
+"sudan,el fasher",1.017720794168604,1
+"algeria,el golea",2.360591973007911,2
+"indonesia,ende",1.6195715255824712,1
+"australia,esperance",1.4075308255416066,2
+"australia,ravensthorpe",1.6698814929179762,2
+"turkey,erzincan",0.6990430179515221,2
+"brazil,erechim",2.2256084707261925,3
+"brazil,passo fundo",1.67276568315535,4
+"brazil,eirunepe",1.8071662578092227,1
+"brazil,tefe",3.5452274245328814,3
+"namibia,rundu",1.000267781741776,1
+"turkey,erzurum",0.6990430179515221,2
+"turkey,kahramanmaras",0.6990430179515221,2
+"turkey,kars",0.6990430179515221,2
+"turkey,malatya",0.6990430179515221,2
+"turkey,mus",0.6990430179515221,2
+"france,metz",0.9128458805172928,4
+"canada,moncton",1.4587106078686014,7
+"united states,central",1.8454645081623986,1
+"poland,lublin",0.6477710429370221,3
+"congo (kinshasa),kisangani",2.7552365224605317,3
+"congo (kinshasa),kananga",2.3511891570557566,2
+"congo (kinshasa),kindu",1.0508605253940346,1
+"congo (kinshasa),mbuji-mayi",1.0508605253940346,1
+"congo (kinshasa),tshikapa",2.4912026416531106,2
+"united states,flagstaff",0.4850327412473773,1
+"united states,niagara falls",1.075992850661052,5
+"united states,latrobe",0.8163463191637939,3
+"united states,worcester",0.5457758882140104,2
+"united states,show low",1.2772541022652018,2
+"united states,topeka",0.3389132905061291,1
+"botswana,francistown",0.530505630569196,1
+"japan,miyazaki",1.1648967189990547,5
+"china,foshan",0.3759843327416848,1
+"tunisia,gabes",2.059899494345369,3
+"tunisia,tozeur",2.0534988376100096,4
+"tunisia,gafsa",2.1059414095749056,3
+"japan,yamagata",0.9336973602502863,3
+"cuba,guantanamo",0.8102887982151851,1
+"iran,gorgan",1.5659653845363937,3
+"ethiopia,gode",1.823749803695712,1
+"mexico,los mochis",1.614607643146358,5
+"mexico,mexicali",1.2030199940310748,3
+"mexico,mazatlan",1.7845868300657797,8
+"russia,gelendzhik",0.3619543157584742,1
+"brazil,santo angelo",2.631725712934045,3
+"brazil,santa maria",3.093891840933446,3
+"australia,geraldton",0.7264456166050535,1
+"australia,griffith",0.545112656044907,1
+"united states,thief river falls",1.432304381519454,1
+"australia,grafton",2.1822971462303036,1
+"australia,taree",2.090515028661227,2
+"libya,ghat",0.9928646839119357,1
+"pakistan,gilgit",0.7147090924122506,1
+"papua new guinea,goroka",1.9339394007190882,3
+"papua new guinea,mount hagen",2.2837129627031847,4
+"papua new guinea,madang",2.5799868379374393,5
+"costa rica,golfito",0.7536338997425063,1
+"congo (kinshasa),gemena",2.086434304271737,1
+"brazil,guanambi",1.9817512072624632,2
+"china,golmud",1.0442336733071007,2
+"indonesia,gorontalo",1.4200595199665433,1
+"mexico,tapachula",0.9339777914239794,2
+"switzerland,lugano",0.5644659685952419,2
+"brazil,governador valadares",0.7576145419261248,1
+"pakistan,gwadar",1.5128379837838293,3
+"pakistan,turbat",1.8762396437710072,5
+"ecuador,latacunga",1.0630776609541297,1
+"solomon islands,gizo",1.6219924768862815,1
+"vietnam,hue",1.0123587901697533,2
+"vietnam,pleiku",1.0123587901697533,2
+"vietnam,tuy hoa",1.0123587901697533,2
+"vietnam,can tho",0.8055845143326946,1
+"vietnam,dong hoi",1.0123587901697533,2
+"vietnam,vinh",1.4362671378122183,3
+"cuba,santiago de cuba",1.0405992711140322,6
+"cuba,santa clara",1.0316574578482018,4
+"libya,tobruk",1.4193999605010716,3
+"iran,hamadan",0.8855813763506211,1
+"china,heihe",0.6723909429516588,1
+"finland,joensuu",0.49833713846990896,1
+"finland,jyvaskyla",1.6614071048018957,2
+"finland,kemi",1.8568043461815806,2
+"finland,kuopio",0.49833713846990896,1
+"finland,rovaniemi",0.49833713846990896,1
+"finland,savonlinna",0.49833713846990896,1
+"estonia,tartu",0.49833713846990896,1
+"china,ulanhot",0.9135837902227751,3
+"china,manzhouli",1.790947061506254,8
+"china,tongliao",1.1906253645709923,7
+"china,wuhai",0.8761975346215356,3
+"china,jinzhou",0.8090531073068805,3
+"united states,hagerstown",0.4261517405184082,2
+"papua new guinea,wewak",2.2472417656095263,4
+"united states,hibbing",0.3905613006787229,1
+"japan,kagoshima",1.4388739424158616,7
+"taiwan,tainan",0.45791065035623674,1
+"papua new guinea,hoskins",0.8311353240478834,1
+"japan,kochi",0.9336973602502863,3
+"japan,kumamoto",0.9336973602502863,3
+"japan,matsuyama",0.9428300746357935,4
+"japan,nagasaki",1.4702357376222417,5
+"japan,oita",0.9336973602502863,3
+"japan,takamatsu",0.7087846890198598,3
+"japan,tokushima",0.4968253530525962,1
+"japan,tottori",0.4968253530525962,1
+"united states,hilo",0.9048474339025053,3
+"marshall islands,majuro",2.335904673227601,2
+"american samoa,pago pago",0.6143600497435544,1
+"united states,hobbs",0.35604194915781073,1
+"united states,huron",1.5996761646267967,1
+"portugal,horta",0.9412495751783972,2
+"vietnam,haiphong",0.7447122265717532,1
+"china,jixi",0.9672955105891811,4
+"united states,harrison",0.6840910987890587,2
+"china,hotan",0.6652349462875764,1
+"taiwan,hualien",1.2729337495104611,4
+"united states,new haven",0.2514173334023577,1
+"russia,igarka",0.8265133478406985,1
+"united states,lancaster",0.2197612636503148,1
+"united states,lake charles",0.35604194915781073,1
+"united states,laredo",0.39388650090934607,2
+"united states,mcallen",1.217605367103559,4
+"mexico,morelia",0.9181282491984641,6
+"mexico,saltillo",0.5834062309363225,2
+"united states,tyler",0.35604194915781073,1
+"united states,victoria",0.35604194915781073,1
+"mexico,manzanillo",0.8802866604721921,4
+"iran,kerman",2.2386122204130854,3
+"russia,tiksi",0.9899168615378313,1
+"russia,kyzyl",0.8363092045588377,1
+"russia,lensk",1.1925433125605993,2
+"united states,iron mountain",1.4641805914730643,2
+"united states,rhinelander",1.5646054642983271,2
+"mozambique,inhambane",1.0607051789304605,2
+"malaysia,ipoh",0.4553101490127146,1
+"united states,williamsport",0.2514173334023577,1
+"peru,iquitos",1.8370827941684666,4
+"peru,pucallpa",1.8511452556478736,3
+"peru,tarapoto",2.3381745596608092,3
+"united states,kirksville",0.35255746494927637,1
+"pakistan,sukkur",1.8073417179747977,4
+"pakistan,quetta",2.657139867434766,8
+"turkey,isparta",0.34298346481452674,1
+"turkey,kastamonu",0.34298346481452674,1
+"turkey,kutahya",0.34298346481452674,1
+"turkey,nevsehir",0.34298346481452674,1
+"brazil,itaituba",1.593328708012261,1
+"greenland,ilulissat",2.28734081158473,2
+"greenland,uummannaq",1.7122652977049868,1
+"greenland,upernavik",2.3283861032618938,2
+"united states,jonesboro",0.35255746494927637,1
+"iran,rasht",1.2900288744246196,3
+"puerto rico,ponce",0.5357387530874679,2
+"china,jiayuguan",0.9049019725629474,2
+"zambia,livingstone",1.3659933153534087,4
+"lesotho,maseru",0.530505630569196,1
+"swaziland,manzini",0.530505630569196,1
+"zambia,ndola",1.8604174576504715,5
+"south africa,pietermaritzburg",0.530505630569196,1
+"south africa,umtata",0.530505630569196,1
+"united states,ketchikan",1.8018098207004252,3
+"united states,petersburg",1.307651718080002,1
+"united states,sitka",1.8625509944530123,2
+"nigeria,jos",0.7518743381037992,1
+"greenland,qaanaaq",1.4341298995544023,1
+"china,quzhou",0.773568194651984,3
+"zambia,kasama",1.7720763081846065,2
+"nigeria,kaduna",0.7518743381037992,1
+"china,kuqa",0.6652349462875764,1
+"pakistan,faisalabad",0.859269931180368,1
+"kenya,kisumu",1.7526070659396198,2
+"china,yongzhou",0.7162888932921938,2
+"china,simao",0.5210383504093078,1
+"china,yichun",0.7840387556391556,4
+"congo (kinshasa),kongolo",3.530816711431941,1
+"congo (kinshasa),kalemie",3.3365605212937366,1
+"sudan,nyala",1.017720794168604,1
+"china,karamay",0.6652349462875764,1
+"kenya,kitale",0.5556784042819011,1
+"nepal,pokhara",0.824529721726193,1
+"georgia,kutaisi",1.2685380498997634,5
+"malaysia,kuantan",0.5889538859351674,2
+"malaysia,kuala terengganu",1.0518391090859558,3
+"papua new guinea,kavieng",0.8311353240478834,1
+"russia,kirov",0.3619543157584742,1
+"china,wuzhou",1.0933236515114264,3
+"angola,luena",0.7764748421742278,1
+"angola,malanje",1.9231712038696203,2
+"angola,huambo",1.856371887515435,3
+"angola,lubango",1.5652034770116308,3
+"angola,menongue",2.228520404945902,3
+"sao tome and principe,sao tome",0.8218347115349739,2
+"angola,saurimo",2.071577014440147,2
+"angola,ondjiva",2.7617519046583094,4
+"philippines,laoag",0.6686873240224834,1
+"libya,al bayda'",1.043926687410864,2
+"united states,stockton",0.24714435650327143,1
+"united states,santa maria",0.43081111902629254,2
+"kenya,lamu",1.8885345141298284,2
+"kenya,malindi",1.7095008334088388,2
+"mexico,loreto",0.4125872329857357,1
+"united states,merced",0.4125872329857357,1
+"united states,mammoth lakes",0.4125872329857357,1
+"united states,prescott",0.4125872329857357,1
+"united states,san luis obispo",0.6783348152570979,3
+"united states,santa rosa",0.7647227558362779,4
+"mexico,uruapan",0.7961994898290454,2
+"united states,visalia",0.4125872329857357,1
+"canada,kelowna",1.857379198506615,10
+"united states,yuma",0.5861545387863571,2
+"mexico,zacatecas",0.8731497193673249,4
+"brazil,bom jesus da lapa",2.030972984420077,2
+"honduras,la ceiba",1.9949039189002997,4
+"honduras,puerto lempira",1.9019410406834236,2
+"china,longyan",0.40880474949858286,1
+"france,le havre",0.5277715498365038,1
+"china,zhangye",0.9049019725629474,2
+"peru,puerto maldonado",0.6552494568707085,1
+"peru,piura",0.6552494568707085,1
+"peru,tumbes",0.6552494568707085,1
+"peru,tingo maria",0.6552494568707085,1
+"peru,trujillo",0.6552494568707085,1
+"congo (kinshasa),lodja",1.0508605253940346,1
+"united states,klamath falls",0.5258083181219578,2
+"nigeria,uyo",0.7518743381037992,1
+"bolivia,potosi",1.1011481386645958,1
+"bolivia,uyuni",1.1011481386645958,1
+"australia,winton",1.5726271939933076,2
+"france,lorient",0.551154656745723,2
+"united states,la crosse",0.4763539747626863,2
+"australia,lismore",0.545112656044907,1
+"namibia,luderitz",1.8585828886941171,2
+"namibia,oranjemund",1.9355306877847467,2
+"united states,pullman",1.3307874743989547,2
+"algeria,setif",0.6950898919770157,3
+"algeria,tlemcen",0.6950898919770157,3
+"brazil,tucurui",1.7001206529587036,2
+"spain,pamplona",0.41611481644610376,1
+"papua new guinea,vanimo",1.8718877768626883,3
+"kiribati,tarawa",2.0693537759591307,1
+"brazil,parintins",1.0061054190099468,1
+"venezuela,puerto cabello",1.80140890620314,2
+"puerto rico,mayaguez",0.6499085304060109,1
+"united states,manistee",0.3389132905061291,1
+"united states,salina",0.5515642244166322,1
+"burma,myitkyina",2.345206053289548,1
+"papua new guinea,mendi",0.8311353240478834,1
+"ecuador,manta",0.903332670886735,1
+"australia,merimbula",0.7705226501091715,2
+"australia,wagga wagga",0.7705226501091715,2
+"mexico,minatitlan",0.537369346547212,1
+"mexico,nuevo laredo",0.537369346547212,1
+"mexico,piedras negras",0.537369346547212,1
+"mexico,puerto escondido",0.537369346547212,1
+"mexico,tepic",0.8776834188001035,2
+"kenya,wajir",1.5350369130090546,2
+"burma,myeik",3.4315404392658655,1
+"burma,dawei",3.6049932967747558,1
+"chile,castro",1.7413933636394077,1
+"iran,birjand",0.8855813763506211,1
+"germany,mannheim",0.4339929400868126,1
+"united states,manhattan",0.3389132905061291,1
+"madagascar,mahajanga",1.10617050119854,1
+"united states,muskegon",0.3389132905061291,1
+"philippines,pagadian",0.6686873240224834,1
+"philippines,roxas city",0.6686873240224834,1
+"philippines,tacloban",0.6686873240224834,1
+"philippines,tuguegarao",0.6686873240224834,1
+"united states,modesto",0.44930920657565904,1
+"madagascar,morondava",2.275222158084457,2
+"madagascar,toliara",2.1230546332042466,2
+"mozambique,chimoio",1.0938273607812588,1
+"australia,moree",0.545112656044907,1
+"eritrea,massawa",1.2829182453208068,1
+"romania,sibiu",0.677294451982777,3
+"united states,marion",0.35255746494927637,1
+"united states,youngstown",1.083445196248073,4
+"china,qiqihar",0.7137912802552041,3
+"kenya,nanyuki",0.5556784042819011,1
+"australia,orange",0.545112656044907,1
+"romania,oradea",0.5793597198917414,1
+"united states,paducah",0.3389132905061291,1
+"united states,sioux city",0.3389132905061291,1
+"united states,toledo",0.897498589458662,4
+"canada,london",1.063063874486211,5
+"norway,namsos",0.7159058896256592,1
+"united states,north bend",0.5258083181219578,2
+"romania,satu mare",0.5793597198917414,1
+"united states,owensboro",0.5128689464177927,2
+"united states,pendleton",0.3558983244304516,1
+"bulgaria,plovdiv",0.2924858474401963,1
+"australia,newman",0.7264456166050535,1
+"brazil,pelotas",0.9133480853591165,1
+"united states,pocatello",0.4378972315069463,1
+"brazil,araxa",0.7576145419261248,1
+"brazil,sao jose dos campos",0.9242383280152917,2
+"chile,punta arenas",1.9919740655273457,3
+"brazil,santa rosa",1.802681448153603,2
+"united states,portsmouth",0.43283508941307475,1
+"australia,portland",0.634843269518801,1
+"russia,pevek",0.3619543157584742,1
+"pakistan,zhob",1.3824465629205585,1
+"saudi arabia,rafha",0.6444382056055866,1
+"united states,redding",0.44930920657565904,1
+"brazil,uruguaiana",2.0700379523602006,1
+"bolivia,riberalta",1.4635103528202182,1
+"bangladesh,rajshahi",2.228848881862633,2
+"brazil,rio verde",0.6688094717435259,1
+"chile,osorno",0.7482527905442613,1
+"russia,syktyvkar",2.3623995314798507,4
+"russia,ukhta",1.3998251492498224,2
+"united states,yakima",0.4673767059881676,1
+"vietnam,rach gia",0.7447122265717532,1
+"brazil,sao gabriel",1.8071662578092227,1
+"china,zhangjiakou",0.8014655781799591,1
+"united states,twin falls",0.4378972315069463,1
+"united states,vernal",0.4378972315069463,1
+"united states,quincy",0.35255746494927637,1
+"australia,tamworth",0.545112656044907,1
+"china,tacheng",0.6652349462875764,1
+"new zealand,timaru",0.852767530185336,1
+"ecuador,tena",1.9318904030441075,2
+"ecuador,tulcan",0.903332670886735,1
+"ecuador,macas",1.968278393030854,2
+"australia,quilpie",1.0329105790671569,1
+"russia,kursk",0.3619543157584742,1
+"new zealand,westport",0.852767530185336,1
+"canada,arctic bay",1.316526712899324,2
+"canada,iqaluit",2.772193424921087,8
+"canada,resolute",1.4439481586465737,2
+"canada,cat lake",1.0874426513222204,1
+"canada,sioux lookout",2.3821109822292446,5
+"canada,baker lake",1.4549918111235898,3
+"canada,chesterfield inlet",1.4852604940948029,3
+"canada,rankin inlet",2.1688240476002614,9
+"canada,repulse bay",1.4852604940948029,3
+"canada,campbell river",0.5327166947976871,1
+"canada,brandon",0.5624120845525898,1
+"canada,cambridge bay",1.4496146583117553,2
+"canada,gjoa haven",1.4877929141046313,2
+"canada,yellowknife",2.7827010788912756,13
+"canada,nanaimo",0.7151297018765115,2
+"canada,coral harbour",1.8150148019633543,4
+"canada,deer lake",1.9899769289026306,4
+"canada,dawson creek",1.2998001942224084,2
+"canada,fort nelson",2.1635808465656186,3
+"canada,hamilton",1.3466079969839517,4
+"canada,hay river",1.197362856908495,3
+"canada,grande prairie",0.8155106078336206,2
+"canada,fort smith",1.8755881103500276,4
+"canada,fort saint john",1.5672135549671025,5
+"canada,abbotsford",0.8155106078336206,2
+"canada,whitehorse",1.3058789593847084,5
+"canada,fort severn",1.0874426513222204,1
+"canada,inuvik",2.898526340838687,5
+"canada,fort good hope",1.4296085798622005,2
+"canada,paulatuk",1.0340730301134966,1
+"canada,tuktoyaktuk",1.0340730301134966,1
+"canada,norman wells",1.575117246716145,3
+"canada,fort mcpherson",1.0340730301134966,1
+"canada,igloolik",2.1815214236918172,3
+"canada,kimmirut",0.8895586142159262,1
+"canada,cape dorset",1.2145646965160006,2
+"canada,hall beach",1.3842825924197824,2
+"canada,pangnirtung",0.8895586142159262,1
+"canada,fredericton",1.0437664695479292,4
+"canada,flin flon",1.7096099753122247,3
+"canada,the pas",1.7141671653158843,3
+"canada,thompson",2.2453229677090834,6
+"canada,fort simpson",0.7894144399187069,1
+"canada,kingston",0.4023913976814851,1
+"canada,gaspe",1.1609148992358749,1
+"canada,pond inlet",1.2302913958376216,1
+"canada,gillam",1.2693956843852194,2
+"canada,grise fiord",1.1265320170307587,1
+"canada,dryden",2.215282688109643,4
+"canada,kenora",1.3815929764201327,2
+"canada,thunder bay",2.4300391971658217,7
+"canada,red lake",1.8292382479693667,4
+"canada,sept-iles",2.0170764586462235,4
+"canada,gander",0.7381628127837234,1
+"canada,sydney",0.744792948449308,2
+"canada,charlottetown",0.8388673468836096,3
+"canada,ivujivik",1.3455840909126398,1
+"canada,salluit",1.4570804437724498,1
+"canada,stephenville",1.1869979332899963,1
+"canada,kamloops",1.1213176328402281,3
+"canada,prince george",2.5500038939207506,8
+"canada,schefferville",1.714662624994959,2
+"canada,cranbrook",1.090859383121132,3
+"canada,fort chipewyan",1.3574497233950884,2
+"canada,moosonee",1.3500479716099396,1
+"canada,timmins",2.652549657133027,5
+"canada,natashquan",1.4648694620918075,1
+"canada,powell river",0.5327166947976871,1
+"canada,windsor",0.6300260203451292,2
+"canada,lethbridge",0.5624120845525898,1
+"canada,quesnel",1.6214011663850705,2
+"canada,williams lake",1.617778949332419,2
+"canada,churchill",1.3574190385034117,3
+"canada,sudbury",2.1731293596546823,4
+"canada,north bay",1.3903995031316387,2
+"canada,lutselk'e",0.7894144399187069,1
+"canada,kapuskasing",1.7010184183550756,2
+"canada,bathurst",0.5251348901552914,1
+"canada,terrace",1.5712935425733165,3
+"canada,smithers",1.6665751685247587,3
+"canada,penticton",0.5327166947976871,1
+"canada,sandspit",0.5327166947976871,1
+"canada,port hardy",0.5327166947976871,1
+"canada,deline",0.7894144399187069,1
+"canada,medicine hat",0.5624120845525898,1
+"canada,sarnia",0.4023913976814851,1
