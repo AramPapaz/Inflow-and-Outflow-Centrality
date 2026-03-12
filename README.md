@@ -1,3 +1,4 @@
+[![DOI](https://img.shields.io/badge/DOI-10.1000%2Fxyz123-blue)](https://doi.org/10.1007/s41109-026-00782-7)
 # Inflow-and-Outflow-Centrality
 
 This repository presents implementations of the **inflow** and **outflow** centrality metrics. Additionally it offers functions to compute the **weighted degree** and **closeness centralities**.
@@ -12,16 +13,3 @@ The example folder contains the airport network used in the paper. The interacti
 *pandas* == 2.2.2  
 *numpy* == 1.26.4   
 
-## Publication
-```bibtex
-@article{papazian2026inflow,
-  title={Inflow and outflow centrality: novel centrality metrics inspired by graph convolution},
-  author={Papazian, Aram and Helms, Volkhard},
-  journal={Applied Network Science},
-  volume={11},
-  number={1},
-  pages={22},
-  year={2026},
-  publisher={Springer Nature BV}
-}
-\```
