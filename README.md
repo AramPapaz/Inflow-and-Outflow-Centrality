@@ -1,4 +1,4 @@
-[![DOI](https://img.shields.io/badge/DOI-blue)](https://doi.org/10.1007/s41109-026-00782-7)
+[![DOI](https://img.shields.io/badge/DOI-10.1000%2Fxyz123-blue)](https://doi.org/10.1007/s41109-026-00782-7)
 # Inflow-and-Outflow-Centrality
 
 This repository presents implementations of the **inflow** and **outflow** centrality metrics. Additionally it offers functions to compute the **weighted degree** and **closeness centralities**.
