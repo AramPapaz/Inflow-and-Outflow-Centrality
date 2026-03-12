@@ -13,6 +13,7 @@ The example folder contains the airport network used in the paper. The interacti
 *numpy* == 1.26.4   
 
 ## Publication
+```bibtex
 @article{papazian2026inflow,
   title={Inflow and outflow centrality: novel centrality metrics inspired by graph convolution},
   author={Papazian, Aram and Helms, Volkhard},
@@ -23,3 +24,4 @@ The example folder contains the airport network used in the paper. The interacti
   year={2026},
   publisher={Springer Nature BV}
 }
+\```
