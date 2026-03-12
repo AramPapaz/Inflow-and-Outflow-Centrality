@@ -11,3 +11,15 @@ The example folder contains the airport network used in the paper. The interacti
 *networkx* == 3.6  
 *pandas* == 2.2.2  
 *numpy* == 1.26.4   
+
+## Publication
+@article{papazian2026inflow,
+  title={Inflow and outflow centrality: novel centrality metrics inspired by graph convolution},
+  author={Papazian, Aram and Helms, Volkhard},
+  journal={Applied Network Science},
+  volume={11},
+  number={1},
+  pages={22},
+  year={2026},
+  publisher={Springer Nature BV}
+}
