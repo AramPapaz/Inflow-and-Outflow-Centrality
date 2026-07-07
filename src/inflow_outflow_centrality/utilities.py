@@ -6,6 +6,7 @@ import math
 import collections
 import sys
 import os
+import gzip
 
 
 
@@ -221,26 +222,70 @@ def read_interactions_csv(csv_path):
     return interactions
 
 
+def read_interactions_ea(ea_path):
+    """
+    reads an interaction network from a .ea file (see example/4efm_intsc.ea
+    for the expected format) and returns a pandas dataframe with three
+    columns that can be passed directly as the `interactions` argument to
+    flow_metric.
+
+    ea_path: path to a .ea file, or a gzip-compressed .ea.gz file (detected by
+             the ".gz" suffix and read with the gzip package). Each
+             non-header line is expected to be whitespace separated into 4
+             fields: <node1> <interaction description> <node2> <score>. Only
+             rows whose description contains "combi:all_all" are kept, and
+             rows with a negative score are filtered out.
+
+    returns pandas dataframe with columns Node1, Node2, Score.
+    """
+    opener=gzip.open if str(ea_path).endswith(".gz") else open
+    rows=[]
+    with opener(ea_path,"rt") as f:
+        for line in f:
+            parts=line.split()
+            if len(parts)!=4:
+                continue
+            node1,description,node2,score=parts
+            if "combi:all_all" not in description:
+                continue
+            try:
+                score=float(score)
+            except ValueError:
+                continue
+            if score<0:
+                continue
+            rows.append((node1,node2,score))
+
+    return pd.DataFrame(rows,columns=["Node1","Node2","Score"])
+
+
+
 def main():
     """
     command line entry point.
 
-    usage: python -m inflow_outflow_centrality.utilities <flow_type> <interactions_csv> [features_csv]
+    usage: python -m inflow_outflow_centrality.utilities <flow_type> <interactions_file> [features_csv]
 
     flow_type: "in", "out", or "both", forwarded to flow_metric.
-    interactions_csv: path to a csv file readable by read_interactions_csv.
+    interactions_file: path to the interaction network file. The file
+                       extension determines how it is parsed: ".ea"/".ea.gz"
+                       is read with read_interactions_ea, anything else is
+                       read with read_interactions_csv.
     features_csv: optional path to a 2 column csv file (node id, feature
                   value) that is turned into the features dict expected by
                   flow_metric. If omitted, every node id found in
-                  interactions_csv is assigned a feature value of 1.
+                  interactions_file is assigned a feature value of 1.
 
     writes the resulting dataframe to "<flow_type>_output.csv" in the same
-    folder as interactions_csv.
+    folder as interactions_file.
     """
     flow_type=sys.argv[1]
     interactions_path=sys.argv[2]
 
-    interactions=read_interactions_csv(interactions_path)
+    if interactions_path.endswith(".ea") or interactions_path.endswith(".ea.gz"):
+        interactions=read_interactions_ea(interactions_path)
+    else:
+        interactions=read_interactions_csv(interactions_path)
 
     if len(sys.argv)>3:
         features_path=sys.argv[3]
