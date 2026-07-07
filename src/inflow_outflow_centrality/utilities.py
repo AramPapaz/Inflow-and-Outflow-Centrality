@@ -4,6 +4,8 @@ from collections import Counter,defaultdict
 import networkx as nx
 import math
 import collections
+import sys
+import os
 
 
 
@@ -12,19 +14,26 @@ def flow_metric(interactions,features,flow_type):
     """
     flow_metric returns the in/outflow metric for each node in the network
 
-    interactions: pandas dataframe of interactions having 2 columns with node ids
+    interactions: pandas dataframe of interactions having 2 columns with node ids.
+                  optionally, a third column of float weights can be included;
+                  when present, the weights touching each node are summed up
+                  (the same way node degrees are) and used to compute a second,
+                  weight-based version of the in/outflow metric alongside the
+                  original degree-based one.
 
     features: dictionary with node id as key and respective feature as value.
               make sure features follow somewhat normal distribution.
 
-    flow_type: specify as either "in", "out", or "both". "both" computes the
-               inflow and outflow metrics together in a single pass and returns
-               them in one dataframe.
+    flow_type: specify as either "in", "out", or "both". inflow and outflow are
+               always computed together internally; flow_type only controls
+               which columns are returned.
 
-    returns pandas dataframe. For flow_type "in"/"out": first column represents
-    the node ids, second column represents the in/outflow values, third column
-    represents the node degrees. For flow_type "both": columns are Node,
-    InflowValue, OutflowValue, Degree.
+    returns pandas dataframe. For flow_type "in"/"out": Node, In/OutflowValue,
+    Degree. For flow_type "both": Node, InflowValue, OutflowValue, Degree. If a
+    third (float) column was present in interactions, the summed weight per
+    node (WeightSum) is added along with the weight-based counterpart(s) of the
+    value column(s), e.g. WeightedInflowValue / WeightedOutflowValue, computed
+    with degrees replaced by WeightSum.
     """
 
     ############# removing duplicate interactions and self interactions
@@ -32,6 +41,8 @@ def flow_metric(interactions,features,flow_type):
     cols=list(interactions.columns)
     col1=cols[0]
     col2=cols[1]
+    has_weights=len(cols)>=3 and pd.api.types.is_float_dtype(interactions[cols[2]])
+    col3=cols[2] if has_weights else None
     rem=[]
     for i in range(interactions.shape[0]): ## duplicates
         id1=interactions.loc[i,col1]
@@ -72,64 +83,68 @@ def flow_metric(interactions,features,flow_type):
     c2=Counter(interactions[col2])
     degrees=c1+c2
 
+    ####################### get summed edge weight of each node (if provided)
+    weightsum=None
+    medianweight=None
+    if has_weights:
+        w1=interactions.groupby(col1)[col3].sum()
+        w2=interactions.groupby(col2)[col3].sum()
+        weightsum=w1.add(w2,fill_value=0).to_dict()
+        medianweight=np.median(list(weightsum.values()))
+
     ####################### compute in/outflow metric
     mediandegree=np.median(list(degrees.values()))
+    inmetric=dict()
+    outmetric=dict()
+    w_inmetric=dict()
+    w_outmetric=dict()
+    for i in inters_dictform:
+        intot=0
+        outtot=0
+        w_intot=0
+        w_outtot=0
+        for j in inters_dictform[i]:
+            muldeg=degrees[i]*degrees[j] ## di dj
+            sqrt=math.sqrt(muldeg)
+            intot+=features[j]/sqrt
+            outtot+=features[i]/sqrt
+            if has_weights:
+                mulweight=weightsum[i]*weightsum[j]
+                sqrtweight=math.sqrt(mulweight)
+                w_intot+=features[j]/sqrtweight
+                w_outtot+=features[i]/sqrtweight
+        denom=math.sqrt(degrees[i])+mediandegree
+        inmetric[i]=intot/denom
+        outmetric[i]=outtot/denom
+        if has_weights:
+            denomweight=math.sqrt(weightsum[i])+medianweight
+            w_inmetric[i]=w_intot/denomweight
+            w_outmetric[i]=w_outtot/denomweight
 
-    if flow_type=="both": ## inflow and outflow together
-        inmetric=dict()
-        outmetric=dict()
-        for i in inters_dictform:
-            intot=0
-            outtot=0
-            for j in inters_dictform[i]:
-                muldeg=degrees[i]*degrees[j] ## di dj
-                sqrt=math.sqrt(muldeg)
-                intot+=features[j]/sqrt
-                outtot+=features[i]/sqrt
-            denom=math.sqrt(degrees[i])+mediandegree
-            inmetric[i]=intot/denom
-            outmetric[i]=outtot/denom
+    nodes=list(inmetric.keys())
+    result=pd.DataFrame({"Node":nodes,
+                         "InflowValue":[inmetric[n] for n in nodes],
+                         "OutflowValue":[outmetric[n] for n in nodes],
+                         "Degree":[degrees[n] for n in nodes]})
+    if has_weights:
+        result["WeightSum"]=[weightsum[n] for n in nodes]
+        result["WeightedInflowValue"]=[w_inmetric[n] for n in nodes]
+        result["WeightedOutflowValue"]=[w_outmetric[n] for n in nodes]
 
-        nodes=list(inmetric.keys())
-        both=pd.DataFrame({"Node":nodes,
-                            "InflowValue":[inmetric[n] for n in nodes],
-                            "OutflowValue":[outmetric[n] for n in nodes],
-                            "Degree":[degrees[n] for n in nodes]})
-        return both
+    if flow_type=="both":
+        return result
 
-    elif flow_type=="in": ## inflow
-        metric=dict()
-        for i in inters_dictform:
-            tot=0
-            for j in inters_dictform[i]:
-                muldeg=degrees[i]*degrees[j] ## di dj
-                sqrt=math.sqrt(muldeg)
-                tot+=features[j]/sqrt
-            metric[i]=tot/(math.sqrt(degrees[i])+mediandegree)
-
-        inflow=pd.DataFrame({"Node":list(metric.keys()),"InflowValue":list(metric.values())})
-        damount=list()
-        for i in range(inflow.shape[0]):
-            damount.append(degrees[inflow.loc[i,"Node"]])
-        inflow["Degree"]=damount
-        return inflow
+    elif flow_type=="in":
+        keep=["Node","InflowValue","Degree"]
+        if has_weights:
+            keep+=["WeightSum","WeightedInflowValue"]
+        return result[keep]
 
     else: ## outflow
-        metric=dict()
-        for i in inters_dictform:
-            tot=0
-            for j in inters_dictform[i]:
-                muldeg=degrees[i]*degrees[j] ## di dj
-                sqrt=math.sqrt(muldeg)
-                tot+=features[i]/sqrt
-            metric[i]=tot/(math.sqrt(degrees[i])+mediandegree)
-
-        outflow=pd.DataFrame({"Node":list(metric.keys()),"OutflowValue":list(metric.values())})
-        damount=list()
-        for i in range(outflow.shape[0]):
-            damount.append(degrees[outflow.loc[i,"Node"]])
-        outflow["Degree"]=damount
-        return outflow
+        keep=["Node","OutflowValue","Degree"]
+        if has_weights:
+            keep+=["WeightSum","WeightedOutflowValue"]
+        return result[keep]
 
 
 def node_weighted_degree_centrality(interactions, features, f=lambda x: x):
@@ -182,3 +197,67 @@ def node_weighted_closeness_centrality(interactions, features, f=lambda x: x):
         centrality[u] = numerator / total_weight
 
     return centrality
+
+
+def read_interactions_csv(csv_path):
+    """
+    reads an interaction network from a csv file and returns a pandas
+    dataframe that can be passed directly as the `interactions` argument to
+    flow_metric.
+
+    csv_path: path to a csv file where the first two columns contain the node
+              ids of each interaction (see example/AirportNetwork.csv for the
+              expected format). An optional third column can hold a numeric
+              interaction weight; if present it is cast to float so that
+              flow_metric picks it up as edge weights.
+
+    returns pandas dataframe with 2 columns (node ids) or 3 columns (node ids
+    and float weights).
+    """
+    interactions=pd.read_csv(csv_path)
+    cols=list(interactions.columns)
+    if len(cols)>=3:
+        interactions[cols[2]]=interactions[cols[2]].astype(float)
+    return interactions
+
+
+def main():
+    """
+    command line entry point.
+
+    usage: python -m inflow_outflow_centrality.utilities <flow_type> <interactions_csv> [features_csv]
+
+    flow_type: "in", "out", or "both", forwarded to flow_metric.
+    interactions_csv: path to a csv file readable by read_interactions_csv.
+    features_csv: optional path to a 2 column csv file (node id, feature
+                  value) that is turned into the features dict expected by
+                  flow_metric. If omitted, every node id found in
+                  interactions_csv is assigned a feature value of 1.
+
+    writes the resulting dataframe to "<flow_type>_output.csv" in the same
+    folder as interactions_csv.
+    """
+    flow_type=sys.argv[1]
+    interactions_path=sys.argv[2]
+
+    interactions=read_interactions_csv(interactions_path)
+
+    if len(sys.argv)>3:
+        features_path=sys.argv[3]
+        features_df=pd.read_csv(features_path)
+        fcols=list(features_df.columns)
+        features=dict(zip(features_df[fcols[0]],features_df[fcols[1]]))
+    else:
+        cols=list(interactions.columns)
+        nodes=pd.concat([interactions[cols[0]],interactions[cols[1]]]).unique()
+        features={n:1 for n in nodes}
+
+    result=flow_metric(interactions,features,flow_type)
+
+    out_dir=os.path.dirname(os.path.abspath(interactions_path))
+    out_path=os.path.join(out_dir,f"{flow_type}_output.csv")
+    result.to_csv(out_path,index=False)
+
+
+if __name__=="__main__":
+    main()
