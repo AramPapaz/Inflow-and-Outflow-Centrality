@@ -3,15 +3,14 @@ import numpy as np
 from collections import Counter,defaultdict
 import networkx as nx
 import math
-import collections
 import sys
 import os
 import gzip
+from typing import Literal
 
 
 
-
-def flow_metric(interactions,features,flow_type):
+def flow_metric(interactions: pd.DataFrame, features: pd.DataFrame | None, flow_type: Literal['both', 'in', 'out']):
     """
     flow_metric returns the in/outflow metric for each node in the network
 
@@ -23,7 +22,15 @@ def flow_metric(interactions,features,flow_type):
                   original degree-based one.
 
     features: dictionary with node id as key and respective feature as value.
-              make sure features follow somewhat normal distribution.
+              make sure features follow somewhat normal distribution. If None,
+              features default to 1 for every node, the metric is computed
+              once with those defaults, and then recomputed a second time
+              using the resulting InflowValue (or WeightedInflowValue, if
+              weights are present) as the features. In that case the full
+              first-pass results are also included in the output as
+              InflowValueFirstPass, OutflowValueFirstPass (and
+              WeightedInflowValueFirstPass / WeightedOutflowValueFirstPass if
+              weights are present).
 
     flow_type: specify as either "in", "out", or "both". inflow and outflow are
                always computed together internally; flow_type only controls
@@ -34,7 +41,11 @@ def flow_metric(interactions,features,flow_type):
     third (float) column was present in interactions, the summed weight per
     node (WeightSum) is added along with the weight-based counterpart(s) of the
     value column(s), e.g. WeightedInflowValue / WeightedOutflowValue, computed
-    with degrees replaced by WeightSum.
+    with degrees replaced by WeightSum. If features was None, the additional
+    columns InflowValueFirstPass and OutflowValueFirstPass (and
+    WeightedInflowValueFirstPass / WeightedOutflowValueFirstPass, if weights
+    are present) hold the first-pass results that were used to derive the
+    features for the second pass.
     """
 
     ############# removing duplicate interactions and self interactions
@@ -84,6 +95,10 @@ def flow_metric(interactions,features,flow_type):
     c2=Counter(interactions[col2])
     degrees=c1+c2
 
+    replace_with_result=features is None
+    if features is None:
+        features={n:1 for n in inters_dictform}
+
     ####################### get summed edge weight of each node (if provided)
     weightsum=None
     medianweight=None
@@ -95,32 +110,42 @@ def flow_metric(interactions,features,flow_type):
 
     ####################### compute in/outflow metric
     mediandegree=np.median(list(degrees.values()))
-    inmetric=dict()
-    outmetric=dict()
-    w_inmetric=dict()
-    w_outmetric=dict()
-    for i in inters_dictform:
-        intot=0
-        outtot=0
-        w_intot=0
-        w_outtot=0
-        for j in inters_dictform[i]:
-            muldeg=degrees[i]*degrees[j] ## di dj
-            sqrt=math.sqrt(muldeg)
-            intot+=features[j]/sqrt
-            outtot+=features[i]/sqrt
+
+    def compute_metrics(features):
+        inmetric=dict()
+        outmetric=dict()
+        w_inmetric=dict()
+        w_outmetric=dict()
+        for i in inters_dictform:
+            intot=0
+            outtot=0
+            w_intot=0
+            w_outtot=0
+            for j in inters_dictform[i]:
+                muldeg=degrees[i]*degrees[j] ## di dj
+                sqrt=math.sqrt(muldeg)
+                intot+=features[j]/sqrt
+                outtot+=features[i]/sqrt
+                if has_weights:
+                    mulweight=weightsum[i]*weightsum[j]
+                    sqrtweight=math.sqrt(mulweight)
+                    w_intot+=features[j]/sqrtweight
+                    w_outtot+=features[i]/sqrtweight
+            denom=math.sqrt(degrees[i])+mediandegree
+            inmetric[i]=intot/denom
+            outmetric[i]=outtot/denom
             if has_weights:
-                mulweight=weightsum[i]*weightsum[j]
-                sqrtweight=math.sqrt(mulweight)
-                w_intot+=features[j]/sqrtweight
-                w_outtot+=features[i]/sqrtweight
-        denom=math.sqrt(degrees[i])+mediandegree
-        inmetric[i]=intot/denom
-        outmetric[i]=outtot/denom
-        if has_weights:
-            denomweight=math.sqrt(weightsum[i])+medianweight
-            w_inmetric[i]=w_intot/denomweight
-            w_outmetric[i]=w_outtot/denomweight
+                denomweight=math.sqrt(weightsum[i])+medianweight
+                w_inmetric[i]=w_intot/denomweight
+                w_outmetric[i]=w_outtot/denomweight
+        return inmetric,outmetric,w_inmetric,w_outmetric
+
+    inmetric,outmetric,w_inmetric,w_outmetric=compute_metrics(features)
+
+    if replace_with_result: ## features were defaulted, refine using first pass result
+        fp_inmetric,fp_outmetric,fp_w_inmetric,fp_w_outmetric=inmetric,outmetric,w_inmetric,w_outmetric
+        features=fp_w_inmetric if has_weights else fp_inmetric
+        inmetric,outmetric,w_inmetric,w_outmetric=compute_metrics(features)
 
     nodes=list(inmetric.keys())
     result=pd.DataFrame({"Node":nodes,
@@ -131,6 +156,12 @@ def flow_metric(interactions,features,flow_type):
         result["WeightSum"]=[weightsum[n] for n in nodes]
         result["WeightedInflowValue"]=[w_inmetric[n] for n in nodes]
         result["WeightedOutflowValue"]=[w_outmetric[n] for n in nodes]
+    if replace_with_result:
+        result["InflowValueFirstPass"]=[fp_inmetric[n] for n in nodes]
+        result["OutflowValueFirstPass"]=[fp_outmetric[n] for n in nodes]
+        if has_weights:
+            result["WeightedInflowValueFirstPass"]=[fp_w_inmetric[n] for n in nodes]
+            result["WeightedOutflowValueFirstPass"]=[fp_w_outmetric[n] for n in nodes]
 
     if flow_type=="both":
         return result
@@ -139,12 +170,20 @@ def flow_metric(interactions,features,flow_type):
         keep=["Node","InflowValue","Degree"]
         if has_weights:
             keep+=["WeightSum","WeightedInflowValue"]
+        if replace_with_result:
+            keep+=["InflowValueFirstPass"]
+            if has_weights:
+                keep+=["WeightedInflowValueFirstPass"]
         return result[keep]
 
     else: ## outflow
         keep=["Node","OutflowValue","Degree"]
         if has_weights:
             keep+=["WeightSum","WeightedOutflowValue"]
+        if replace_with_result:
+            keep+=["OutflowValueFirstPass"]
+            if has_weights:
+                keep+=["WeightedOutflowValueFirstPass"]
         return result[keep]
 
 
@@ -293,9 +332,7 @@ def main():
         fcols=list(features_df.columns)
         features=dict(zip(features_df[fcols[0]],features_df[fcols[1]]))
     else:
-        cols=list(interactions.columns)
-        nodes=pd.concat([interactions[cols[0]],interactions[cols[1]]]).unique()
-        features={n:1 for n in nodes}
+        features = None
 
     result=flow_metric(interactions,features,flow_type)
 
