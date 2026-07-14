@@ -72,7 +72,7 @@ def flow_metric(interactions,features,flow_type):
     for i in range(interactions.shape[0]): ## self interactions
         if interactions.loc[i,col1]==interactions.loc[i,col2]:
             rem.append(i)
-    interactions=interactions.drop(i).reset_index(drop=True)
+    interactions=interactions.drop(rem).reset_index(drop=True)
 
     inters_dictform=defaultdict(list)
     for i in range(interactions.shape[0]):  ## convert dataframe to dict form
