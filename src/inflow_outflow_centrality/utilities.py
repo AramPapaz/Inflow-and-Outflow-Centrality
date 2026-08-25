@@ -83,7 +83,7 @@ def flow_metric(interactions: pd.DataFrame, features: pd.DataFrame | None, flow_
     for i in range(interactions.shape[0]): ## self interactions
         if interactions.loc[i,col1]==interactions.loc[i,col2]:
             rem.append(i)
-    interactions=interactions.drop(i).reset_index(drop=True)
+    interactions=interactions.drop(rem).reset_index(drop=True)
 
     inters_dictform=defaultdict(list)
     for i in range(interactions.shape[0]):  ## convert dataframe to dict form
@@ -129,6 +129,8 @@ def flow_metric(interactions: pd.DataFrame, features: pd.DataFrame | None, flow_
                 if has_weights:
                     mulweight=weightsum[i]*weightsum[j]
                     sqrtweight=math.sqrt(mulweight)
+                    if sqrtweight == 0:
+                        continue
                     w_intot+=features[j]/sqrtweight
                     w_outtot+=features[i]/sqrtweight
             denom=math.sqrt(degrees[i])+mediandegree
